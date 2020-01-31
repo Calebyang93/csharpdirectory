@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfMVVM1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMVVM1"
+        mc:Ignorable="d"
+        Title="WpfMVVM1" 
+        WindowStartupLocation="CenterScreen"
+        Background="Cornsilk"
+        Height="450" Width="800"
+        >
+  <Window.DataContext>
+    <local:MainWindowViewModel/>
+  </Window.DataContext>
+  
+  <Grid Margin="3">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="30"/>
+      <RowDefinition />
+      <RowDefinition Height="30"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition />
+      <ColumnDefinition />
+      <ColumnDefinition />
+      <ColumnDefinition />
+    </Grid.ColumnDefinitions>
+    <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Simple MVVM Demo" Foreground="CadetBlue" FontSize="22" VerticalAlignment="Center" Margin="3,0,0,0" />
+    <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Text="{Binding Info}" VerticalAlignment="Center" Margin="3,0,0,0" />
+    <Button Grid.Row="2" Grid.Column="3" Height="30" Width="100" Content="Hello" Command="{Binding CmdHello}"  />
+  </Grid>
+</Window>
