@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+  XFAApp1.cpp
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.cpp(18,1): warning C4273: 'fibonacci_init': inconsistent dll linkage
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.h(22,33): message : see previous definition of 'fibonacci_init'
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.cpp(27,1): warning C4273: 'fibonacci_next': inconsistent dll linkage
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.h(28,33): message : see previous definition of 'fibonacci_next'
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.cpp(48,1): warning C4273: 'fibonacci_current': inconsistent dll linkage
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.h(31,47): message : see previous definition of 'fibonacci_current'
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.cpp(54,1): warning C4273: 'fibonacci_index': inconsistent dll linkage
+C:\Users\lenovo\csharpdirectory\XFAApp1.dll\XFAApp1.h(34,37): message : see previous definition of 'fibonacci_index'
+  Generating Code...
+     Creating library C:\Users\lenovo\csharpdirectory\Debug\XFAApp1.dll.lib and object C:\Users\lenovo\csharpdirectory\Debug\XFAApp1.dll.exp
+  XFAApp1.dll.vcxproj -> C:\Users\lenovo\csharpdirectory\Debug\XFAApp1.dll.dll

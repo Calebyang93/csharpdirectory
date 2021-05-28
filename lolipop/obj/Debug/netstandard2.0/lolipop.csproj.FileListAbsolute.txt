@@ -1,0 +1,9 @@
+C:\Users\lenovo\csharpdirectory\lolipop\bin\Debug\netstandard2.0\lolipop.deps.json
+C:\Users\lenovo\csharpdirectory\lolipop\bin\Debug\netstandard2.0\lolipop.dll
+C:\Users\lenovo\csharpdirectory\lolipop\bin\Debug\netstandard2.0\lolipop.pdb
+C:\Users\lenovo\csharpdirectory\lolipop\obj\Debug\netstandard2.0\lolipop.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\lolipop\obj\Debug\netstandard2.0\lolipop.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\lolipop\obj\Debug\netstandard2.0\lolipop.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\lolipop\obj\Debug\netstandard2.0\lolipop.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\csharpdirectory\lolipop\obj\Debug\netstandard2.0\lolipop.dll
+C:\Users\lenovo\csharpdirectory\lolipop\obj\Debug\netstandard2.0\lolipop.pdb

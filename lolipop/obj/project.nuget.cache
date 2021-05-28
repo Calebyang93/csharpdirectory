@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "DQwyRS6Gctk13wUkSnl7lI6lxMBOTpVRCljZsNmQvxl5BIPRAMB6TvHzFxGGDvTvRbnXZZo5tLVNdzxq8yKo4g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\lolipop\\lolipop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project ConsoleTests is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project ConsoleTests supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "ConsoleTests",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
