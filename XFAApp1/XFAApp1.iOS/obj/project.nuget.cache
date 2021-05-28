@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "O+TppubhC5ToqrA47rJAUC7tol46WrJsATRYl7TAlCF135xfR4o/l200nqrX+VUk2LzYp+q9BIShxe6nPWyYoA==",
+  "dgSpecHash": "cAWlrau0Nf/Mu9Zqae7cZpd+kzUcdchbSTo8s7ZhOqn+qJQ8bx6CdkFC4EebsDKnjt4/J310quHEYpSBUnrQRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\XFAApp1\\XFAApp1.iOS\\XFAApp1.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lenovo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"

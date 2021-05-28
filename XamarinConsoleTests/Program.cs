@@ -44,7 +44,7 @@ namespace XamarinConsoleTests
             //as well of the word in that language.
             //APIBritishCall1();
             //APIGermanCall1();
-            //APIRussianCall2();
+            APIRussianCall2();
 
             Console.WriteLine("The test has completed. Press any key to return.");
             Console.ReadLine();
@@ -94,9 +94,9 @@ namespace XamarinConsoleTests
 
 
             // deserializing json to c# logic objects 
-            //DictionaryAPIResponse[] x = JsonSerializer.Deserialize<DictionaryAPIResponse[]>(jsonText); 
+            DictionaryAPIResponse[] x = JsonSerializer.Deserialize<DictionaryAPIResponse[]>(jsonText); 
 
-            //var result = x[0].meanings[0].definitions[0].definition; // take first item in each array/list 
+            var result = x[0].meanings[0].definitions[0].definition; // take first item in each array/list 
         }
 
         private static async void APIBritishCall1(string en_GB, string britword)
