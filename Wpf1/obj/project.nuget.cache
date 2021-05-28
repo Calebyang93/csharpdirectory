@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "dgSpecHash": "ostG6keY9SGKtZX1DLf+02GrhbbtoxGk0PiqSI3f+5dT3+vqIRd9RZ8EYwWblYpI1m6AImEccxafSmilJsRVaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\Wpf1\\Wpf1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\devexpressmvvm\\20.1.6\\devexpressmvvm.20.1.6.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.licensing\\18.2.0.58\\syncfusion.licensing.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.sfskinmanager.wpf\\18.2.0.58\\syncfusion.sfskinmanager.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.shared.wpf\\18.2.0.58\\syncfusion.shared.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.blend.wpf\\18.2.0.58\\syncfusion.themes.blend.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.lime.wpf\\18.2.0.58\\syncfusion.themes.lime.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.metro.wpf\\18.2.0.58\\syncfusion.themes.metro.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2010black.wpf\\18.2.0.58\\syncfusion.themes.office2010black.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2010blue.wpf\\18.2.0.58\\syncfusion.themes.office2010blue.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2010silver.wpf\\18.2.0.58\\syncfusion.themes.office2010silver.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2013darkgray.wpf\\18.2.0.58\\syncfusion.themes.office2013darkgray.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2013lightgray.wpf\\18.2.0.58\\syncfusion.themes.office2013lightgray.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2013white.wpf\\18.2.0.58\\syncfusion.themes.office2013white.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2016colorful.wpf\\18.2.0.58\\syncfusion.themes.office2016colorful.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2016darkgray.wpf\\18.2.0.58\\syncfusion.themes.office2016darkgray.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office2016white.wpf\\18.2.0.58\\syncfusion.themes.office2016white.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.office365.wpf\\18.2.0.58\\syncfusion.themes.office365.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.saffron.wpf\\18.2.0.58\\syncfusion.themes.saffron.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.visualstudio2013.wpf\\18.2.0.58\\syncfusion.themes.visualstudio2013.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.visualstudio2015.wpf\\18.2.0.58\\syncfusion.themes.visualstudio2015.wpf.18.2.0.58.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.data.sqlite.core\\1.0.110\\system.data.sqlite.core.1.0.110.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

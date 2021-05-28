@@ -1,0 +1,1533 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DevExpressMvvm/20.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.UI.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.UI.dll": {},
+          "lib/netcoreapp3.0/DevExpress.Mvvm.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Syncfusion.Licensing/18.2.0.58": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Blend.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Lime.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Metro.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2010Black.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2010Blue.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2010Silver.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2013DarkGray.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2013LightGray.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2013White.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2016Colorful.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2016DarkGray.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2016White.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office365.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Saffron.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.VisualStudio2013.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.VisualStudio2015.WPF/18.2.0.58": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.58",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.58"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.110": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "TD.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "System.Data.SqlClient": "4.8.2",
+          "TD.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TD.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TD.Data.dll": {}
+        }
+      },
+      "TD.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "System.Data.SQLite.Core": "1.0.110"
+        },
+        "compile": {
+          "bin/placeholder/TD.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TD.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpressMvvm/20.1.6": {
+      "sha512": "zyaUKchkX1+MyCtHYGFWz7sIhi9GNGhOK2yicXfY92smdP8naxFnq5Xgn8ZXZNWK6tYwngdBL2b6mKuzW4mdxg==",
+      "type": "package",
+      "path": "devexpressmvvm/20.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpressmvvm.20.1.6.nupkg.sha512",
+        "devexpressmvvm.nuspec",
+        "icon.png",
+        "lib/net452/DevExpress.Mvvm.UI.dll",
+        "lib/net452/DevExpress.Mvvm.UI.pdb",
+        "lib/net452/DevExpress.Mvvm.dll",
+        "lib/net452/DevExpress.Mvvm.pdb",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.UI.dll",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.UI.pdb",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.dll",
+        "lib/netcoreapp3.0/DevExpress.Mvvm.pdb",
+        "license.txt"
+      ]
+    },
+    "EntityFramework/6.2.0": {
+      "sha512": "ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "type": "package",
+      "path": "entityframework/6.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net40/App.config.transform",
+        "content/net40/Web.config.transform",
+        "entityframework.6.2.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.7.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Syncfusion.Licensing/18.2.0.58": {
+      "sha512": "Iiwy+PynlUoeXJC0s1D7ro9FByvTUgTCp3h0/520q5r5guurq3SUDKQjzGvS9W/oHWPaISaMvAoem656LJZfjw==",
+      "type": "package",
+      "path": "syncfusion.licensing/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netcoreapp5.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.18.2.0.58.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.SfSkinManager.WPF/18.2.0.58": {
+      "sha512": "1hEs4AoHQco3Geifpdac941QpSf0BaXhClxiLxxL41CvWnfeEfpDmv+Y8UwpLzJIbxbpZ3N7rSD0Skcy5Ccong==",
+      "type": "package",
+      "path": "syncfusion.sfskinmanager.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net40/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net45/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net45/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net451/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net451/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net46/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net46/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSkinManager.WPF.xml",
+        "syncfusion.sfskinmanager.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.sfskinmanager.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Shared.WPF/18.2.0.58": {
+      "sha512": "RkPpFkJMDZPW8A1kn7DddbxE3/4EY43Kil6tzZ+O8ucb0h9XNRxiSwhkkOAvS8OFj0evIanPkXdr47qzqKaL6A==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf/18.2.0.58",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Shared.WPF.dll",
+        "lib/net35/Syncfusion.Shared.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Shared.WPF.dll",
+        "lib/net40/Syncfusion.Shared.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Shared.WPF.dll",
+        "lib/net45/Syncfusion.Shared.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Shared.WPF.dll",
+        "lib/net451/Syncfusion.Shared.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Shared.WPF.dll",
+        "lib/net46/Syncfusion.Shared.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.Shared.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Shared.WPF.xml",
+        "syncfusion.shared.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.shared.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Themes.Blend.WPF/18.2.0.58": {
+      "sha512": "WJYH5XTiMq2U4xtluXk2rFhhA6lVZ1l2/oMLvbcX1D/I/ng8FLBLTeIMTBmEC5E9CmC6NpgCdSyd6JwldrTOUA==",
+      "type": "package",
+      "path": "syncfusion.themes.blend.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Blend.WPF.xml",
+        "syncfusion.themes.blend.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.blend.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Lime.WPF/18.2.0.58": {
+      "sha512": "SWiapeEF4SUaKObVuFawtzURGkEY21Q2WRBowdBPMW/lssQgh06u9RffllLGTbjGGe7x2PgtuA1hWRiXRkEj0Q==",
+      "type": "package",
+      "path": "syncfusion.themes.lime.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Lime.WPF.xml",
+        "syncfusion.themes.lime.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.lime.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Metro.WPF/18.2.0.58": {
+      "sha512": "pdGsXIcLVJ+g944yRY9m3nCd7fCg3ChafvHWH+ns+Ou7pB+PIoXkuQMmXBZ5phDGwuT+3O+Cl8T+2JHODpuJUQ==",
+      "type": "package",
+      "path": "syncfusion.themes.metro.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Metro.WPF.xml",
+        "syncfusion.themes.metro.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.metro.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2010Black.WPF/18.2.0.58": {
+      "sha512": "eg8r9cdWMLhBaQgVkHAoSqoYKDNyfvteW2ksiwv5mCmlrb7+HiLFvtvISIqmZNevCD6WNHrUDO3iw/Ghl5ISRg==",
+      "type": "package",
+      "path": "syncfusion.themes.office2010black.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "syncfusion.themes.office2010black.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2010black.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2010Blue.WPF/18.2.0.58": {
+      "sha512": "NYKanWX+2G2vaRl81sKSWCjsHoAzSay+CvG9DQzV431id+nWq1sKmoQH8363FxgZtplz918+PljyXoji85ghHg==",
+      "type": "package",
+      "path": "syncfusion.themes.office2010blue.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "syncfusion.themes.office2010blue.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2010blue.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2010Silver.WPF/18.2.0.58": {
+      "sha512": "PBInc81jKWHWc122h6N5IPVtbiWjRyoMV40MBm3OYkBfkifKwTYDbq166WSQtes0+tB/hCFohILJ0+hfBlvJjw==",
+      "type": "package",
+      "path": "syncfusion.themes.office2010silver.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "syncfusion.themes.office2010silver.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2010silver.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2013DarkGray.WPF/18.2.0.58": {
+      "sha512": "81anExktsTEz5EB6XopKBkyrm5fgaXQ9dWDpqPM0ux/KTSe15hO0gs5+X3FlgzXMjVngLoNM7JI7qT+6nPVrTA==",
+      "type": "package",
+      "path": "syncfusion.themes.office2013darkgray.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "syncfusion.themes.office2013darkgray.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2013darkgray.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2013LightGray.WPF/18.2.0.58": {
+      "sha512": "3VnR+GHez6UPUezJfYA1Vqnnd2GOx7sFC4ZIGQGKL33cwE9v0VxIvIkTZORBnA5vPQ2NqKbC8/bRHpWYJFKanw==",
+      "type": "package",
+      "path": "syncfusion.themes.office2013lightgray.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "syncfusion.themes.office2013lightgray.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2013lightgray.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2013White.WPF/18.2.0.58": {
+      "sha512": "3uD10Ka4aRdTeJcwwgYsvBg3NjBwxaVoxy+ChQHmlRjdF7HUi/w1/9tECK8UU1S49cvb72/aRYyoBSzkHSzbRw==",
+      "type": "package",
+      "path": "syncfusion.themes.office2013white.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013White.WPF.xml",
+        "syncfusion.themes.office2013white.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2013white.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2016Colorful.WPF/18.2.0.58": {
+      "sha512": "lFlLObMnJO1kMo9wTqAnfCvOkCWJYs/FUEN7NhQwqYUHQ04ExAd5hH4sZpz8oChEgW3MqQJGE+7govfNANuGrg==",
+      "type": "package",
+      "path": "syncfusion.themes.office2016colorful.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "syncfusion.themes.office2016colorful.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2016colorful.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2016DarkGray.WPF/18.2.0.58": {
+      "sha512": "y/SI0ktEza2HaAHq65pg1fumsqdpSsyki4v9x193dSmMxyf7ZPPSzq8Pr2fdCC0kNWavs4c8Gl9rFw1p6PHzAg==",
+      "type": "package",
+      "path": "syncfusion.themes.office2016darkgray.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "syncfusion.themes.office2016darkgray.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2016darkgray.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2016White.WPF/18.2.0.58": {
+      "sha512": "LxH/ElI6exg0dJ3ZToPtA4cRrOrFSCtNyrWGmXpN92EjR6GZKRUaWNrD/CwDv6rSs8nyU/DayYTdFoUMCPJkgg==",
+      "type": "package",
+      "path": "syncfusion.themes.office2016white.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016White.WPF.xml",
+        "syncfusion.themes.office2016white.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office2016white.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office365.WPF/18.2.0.58": {
+      "sha512": "MgVmTI2b5x1s6qdXVceGSJ8QS+js6dBih8CXfIkroIrfJCsYEItgmBYKGdUwCltJ/z5VIqhmKNGBfju6kfk7iQ==",
+      "type": "package",
+      "path": "syncfusion.themes.office365.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office365.WPF.xml",
+        "syncfusion.themes.office365.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.office365.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Saffron.WPF/18.2.0.58": {
+      "sha512": "H2V55TGNTnuAadyLYu6p+VHVqX/xTmpaoGcAPcB0de2vYxZaMP2ytFEz73/gr9iFJTnf9xyB/uKYdM0/HevVRg==",
+      "type": "package",
+      "path": "syncfusion.themes.saffron.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Saffron.WPF.xml",
+        "syncfusion.themes.saffron.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.saffron.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.VisualStudio2013.WPF/18.2.0.58": {
+      "sha512": "59a4PloCZLMyBMmWesbUtv0+alPlki+eWBaFFqRwo2fK5RFwh2hDj4fNE1XcxZVpWhCtlU1zOerxCsF4n1yj/w==",
+      "type": "package",
+      "path": "syncfusion.themes.visualstudio2013.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net40/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/net45/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net45/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/net451/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net451/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/net46/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net46/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "syncfusion.themes.visualstudio2013.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.visualstudio2013.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.VisualStudio2015.WPF/18.2.0.58": {
+      "sha512": "yEYdNbd5+3IX4ZgDGz4WaWbq0Kpjz6SKYpJfyNYHNMuvLwPinltJX+1LMCQ5VTcli2FFBEwX//DYCza86HXiOg==",
+      "type": "package",
+      "path": "syncfusion.themes.visualstudio2015.wpf/18.2.0.58",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net40/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/net45/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net45/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/net451/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net451/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/net46/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net46/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "syncfusion.themes.visualstudio2015.wpf.18.2.0.58.nupkg.sha512",
+        "syncfusion.themes.visualstudio2015.wpf.nuspec"
+      ]
+    },
+    "System.Data.SqlClient/4.8.2": {
+      "sha512": "80vGtW6uLB4AkyrdVuKTXYUyuXDPAsSKbTVfvjndZaRAYxzFzWhJbvUfeAKrN+128ycWZjLIAl61dFUwWHOOTw==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.xml",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.xml",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.8.2.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.110": {
+      "sha512": "bFx7Jnn/AlfVobpTnKreroh8jItM4eyLz/ZQRhzxYHZ71gqlGgU8y2nSNFnqVaSNu2bAWBf6m3yNyvp9uIhOoA==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.110",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/System.Data.SQLite.Core.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.dll.config",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.dll.config",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.dll.config",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.dll.config",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.dll.config",
+        "lib/net46/System.Data.SQLite.xml",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.config",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll",
+        "system.data.sqlite.core.1.0.110.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.7.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.7.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "TD.Data/1.0.0": {
+      "type": "project",
+      "path": "../TD.Data/TD.Data.csproj",
+      "msbuildProject": "../TD.Data/TD.Data.csproj"
+    },
+    "TD.Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/TD.Model.csproj",
+      "msbuildProject": "../Model/TD.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DevExpressMvvm >= 20.1.6",
+      "Syncfusion.SfSkinManager.Wpf >= 18.2.0.58",
+      "Syncfusion.Shared.WPF >= 18.2.0.58",
+      "Syncfusion.Themes.Blend.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Lime.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Metro.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2010Black.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2010Blue.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2010Silver.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2013DarkGray.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2013LightGray.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2013White.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2016Colorful.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2016DarkGray.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office2016White.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Office365.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.Saffron.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.VisualStudio2013.Wpf >= 18.2.0.58",
+      "Syncfusion.Themes.VisualStudio2015.Wpf >= 18.2.0.58",
+      "TD.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lenovo\\csharpdirectory\\Wpf1\\Wpf1.csproj",
+      "projectName": "Wpf1",
+      "projectPath": "C:\\Users\\lenovo\\csharpdirectory\\Wpf1\\Wpf1.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lenovo\\csharpdirectory\\Wpf1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\lenovo\\csharpdirectory\\TD.Data\\TD.Data.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\csharpdirectory\\TD.Data\\TD.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "DevExpressMvvm": {
+            "target": "Package",
+            "version": "[20.1.6, )"
+          },
+          "Syncfusion.SfSkinManager.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Shared.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Blend.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Lime.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Metro.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2010Black.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2010Blue.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2010Silver.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2013DarkGray.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2013LightGray.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2013White.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2016Colorful.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2016DarkGray.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office2016White.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Office365.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.Saffron.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.VisualStudio2013.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          },
+          "Syncfusion.Themes.VisualStudio2015.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.58, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

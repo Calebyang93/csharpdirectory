@@ -1,0 +1,32 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DevExpressMvvm/20.1.6": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Mvvm.UI.dll": {
+            "assemblyVersion": "20.2.0.0",
+            "fileVersion": "20.2.0.0"
+          },
+          "lib/netcoreapp3.0/DevExpress.Mvvm.dll": {
+            "assemblyVersion": "20.2.0.0",
+            "fileVersion": "20.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpressMvvm/20.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zyaUKchkX1+MyCtHYGFWz7sIhi9GNGhOK2yicXfY92smdP8naxFnq5Xgn8ZXZNWK6tYwngdBL2b6mKuzW4mdxg==",
+      "path": "devexpressmvvm/20.1.6",
+      "hashPath": "devexpressmvvm.20.1.6.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpressMvvm" Version="20.1.6" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Metro.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.SfSkinManager.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Blend.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office365.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Saffron.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Lime.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.VisualStudio2015.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.VisualStudio2013.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2016White.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2016DarkGray.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2016Colorful.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2013White.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2013LightGray.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2013DarkGray.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Blue.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Black.Wpf" Version="18.2.0.58" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Silver.Wpf" Version="18.2.0.58" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TD.Data\TD.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Data.WPF">
+      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\WPF\18.2.0.44\precompiledassemblies\netcoreapp3.1\Syncfusion.Data.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfGrid.WPF">
+      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\WPF\18.2.0.44\precompiledassemblies\netcoreapp3.1\Syncfusion.SfGrid.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF">
+      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\WPF\18.2.0.44\precompiledassemblies\netcoreapp3.1\Syncfusion.Shared.WPF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

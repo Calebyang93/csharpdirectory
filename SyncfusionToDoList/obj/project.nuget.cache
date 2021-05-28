@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "SOs483bcvIccVso+lkiIGW8xrTSB90xoaHD8eReVCMeWZdglnsBFRkHsNq3qEk814a1NmDjq4tGkU3N9pmX3FA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\SyncfusionToDoList\\TD.SFWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.licensing\\18.2.0.44\\syncfusion.licensing.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.sfradialmenu.wpf\\18.2.0.44\\syncfusion.sfradialmenu.wpf.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.sfschedule.wpf\\18.2.0.44\\syncfusion.sfschedule.wpf.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.sfshared.wpf\\18.2.0.44\\syncfusion.sfshared.wpf.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.sfskinmanager.wpf\\18.2.0.44\\syncfusion.sfskinmanager.wpf.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.shared.wpf\\18.2.0.44\\syncfusion.shared.wpf.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.themes.metro.wpf\\18.2.0.44\\syncfusion.themes.metro.wpf.18.2.0.44.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\syncfusion.tools.wpf\\18.2.0.44\\syncfusion.tools.wpf.18.2.0.44.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+C:\Users\lenovo\csharpdirectory\temperatureModel\bin\Debug\netstandard2.0\Model2.deps.json
+C:\Users\lenovo\csharpdirectory\temperatureModel\bin\Debug\netstandard2.0\Model2.dll
+C:\Users\lenovo\csharpdirectory\temperatureModel\bin\Debug\netstandard2.0\Model2.pdb
+C:\Users\lenovo\csharpdirectory\temperatureModel\obj\Debug\netstandard2.0\Model2.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\temperatureModel\obj\Debug\netstandard2.0\Model2.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\temperatureModel\obj\Debug\netstandard2.0\Model2.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\temperatureModel\obj\Debug\netstandard2.0\Model2.dll
+C:\Users\lenovo\csharpdirectory\temperatureModel\obj\Debug\netstandard2.0\Model2.pdb

@@ -1,0 +1,177 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TD.SFWPF/1.0.0": {
+        "dependencies": {
+          "Syncfusion.SfSchedule.WPF": "18.2.0.44",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.44",
+          "Syncfusion.Shared.WPF": "18.2.0.44",
+          "Syncfusion.Themes.Metro.WPF": "18.2.0.44",
+          "Syncfusion.Tools.WPF": "18.2.0.44"
+        },
+        "runtime": {
+          "TD.SFWPF.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/18.2.0.44": {
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.2.0.44",
+            "fileVersion": "18.2.0.44"
+          }
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44",
+          "Syncfusion.SfShared.WPF": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfRadialMenu.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      },
+      "Syncfusion.SfSchedule.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44",
+          "Syncfusion.SfRadialMenu.WPF": "18.2.0.44",
+          "Syncfusion.SfShared.WPF": "18.2.0.44",
+          "Syncfusion.Shared.WPF": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSchedule.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      },
+      "Syncfusion.SfShared.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfShared.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      },
+      "Syncfusion.Themes.Metro.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/18.2.0.44": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.44",
+          "Syncfusion.Shared.WPF": "18.2.0.44"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.WPF.dll": {
+            "assemblyVersion": "18.2310.0.44",
+            "fileVersion": "18.2310.0.44"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TD.SFWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Syncfusion.Licensing/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cbP6Dq/syAKpB0+fS4DAqVG7xsoFJ2DAHW5U/lDFBuHV/i/C+zLXzG8jVBgnPpJVZ/Q1sfcqscVKflLH/lGoRw==",
+      "path": "syncfusion.licensing/18.2.0.44",
+      "hashPath": "syncfusion.licensing.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.SfRadialMenu.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lsURHwfbisZuNWmD5yTyTq55Ze00xL2b5y0abmjQXbijuDnouo5cZRwcZWJqFUJDctOH5js3Eal0NCGnmOhi6w==",
+      "path": "syncfusion.sfradialmenu.wpf/18.2.0.44",
+      "hashPath": "syncfusion.sfradialmenu.wpf.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.SfSchedule.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eD2/62Esg3XF/IQh7RFQvHFnSW8VUPcVT5/D71qGV0VItBPP/lzvIIx2jtybwjurDMcJp+xKKoQUxppDWAbQHA==",
+      "path": "syncfusion.sfschedule.wpf/18.2.0.44",
+      "hashPath": "syncfusion.sfschedule.wpf.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.SfShared.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wRoMejchwa3MSGcF/0z1ktRc60D5XmDBNtDcESFTka8UPl2Ltn/GDByUjB2NZyaXBM/vdzw3g44AD3R7NhPM7g==",
+      "path": "syncfusion.sfshared.wpf/18.2.0.44",
+      "hashPath": "syncfusion.sfshared.wpf.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.SfSkinManager.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MrNjH2nQ2UwAOInVLFPLRez+Bac+EUrHDLHmFVoBvn/j7Z4pHqdDMV/O5GB7cqNZTv1pVBHWrUXQoSf7WGUACg==",
+      "path": "syncfusion.sfskinmanager.wpf/18.2.0.44",
+      "hashPath": "syncfusion.sfskinmanager.wpf.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ssHJ3GJcFVHq8+5oMwlc+W74qXwSwsopzI8II/VDjEtad/niiMJUDEp/rIcDshhgydcu85/Z+mfzAOhKOrFuNQ==",
+      "path": "syncfusion.shared.wpf/18.2.0.44",
+      "hashPath": "syncfusion.shared.wpf.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.Themes.Metro.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iBDWi+NMskunwCmiwgKKvqCGb+0ETvwIVwzwmz4amf9vEBp1Lv/XnFqodoexhczMJb915k3BDxZJDc+S7zk9lQ==",
+      "path": "syncfusion.themes.metro.wpf/18.2.0.44",
+      "hashPath": "syncfusion.themes.metro.wpf.18.2.0.44.nupkg.sha512"
+    },
+    "Syncfusion.Tools.WPF/18.2.0.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z3ST0lHb2mhm/86oLmAgC3uYTJ57t2Mj8WLtUvdGEb8xxa/hTAo8Voyw4Q3zITdL4P6mM/AKx91EvuWvr7t/Rw==",
+      "path": "syncfusion.tools.wpf/18.2.0.44",
+      "hashPath": "syncfusion.tools.wpf.18.2.0.44.nupkg.sha512"
+    }
+  }
+}

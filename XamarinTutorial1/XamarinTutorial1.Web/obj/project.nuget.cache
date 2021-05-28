@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qxNA8HC8cXBZspZr/js2yAwAhs215R3uOm6DaLswBdjYea4RLA36+mfw6umUrYuTl7lDqVQgisp54nneEPRiVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\XamarinTutorial1\\XamarinTutorial1.Web\\XamarinTutorial1.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

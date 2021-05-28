@@ -1,0 +1,14 @@
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Data.Mock.deps.json
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Data.Mock.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Data.Mock.pdb
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Data.Interface.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Model.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Data.Interface.pdb
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\bin\Debug\netcoreapp3.1\TD.Model.pdb
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Mock\obj\Debug\netcoreapp3.1\TD.Data.Mock.pdb

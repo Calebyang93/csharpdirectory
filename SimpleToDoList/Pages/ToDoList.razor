@@ -1,0 +1,19 @@
+﻿@page "/ToDoList"
+<h3>ToDoList</h3>
+<ul>
+    <td>
+        <li> Study for Math Exam</li> 
+        <li> Write Song Lyrics </li>
+        <li> Practice Guitar</li>
+    </td>
+</ul>
+@code {
+    List<string> lst = new List<string>(new string[] { "Study for Math Exam", "Write Song Lyrics", "Practice guitar" });
+}
+@foreach (var t in lst)
+{
+    <ul>
+        <li>@t</li>
+    </ul>
+}
+

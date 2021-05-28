@@ -69,9 +69,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
+    <ProjectReference Include="..\Model\TD.Model.csproj">
       <Project>{daf343a1-f05f-4f43-98b2-2af5cf8f67a6}</Project>
-      <Name>Model</Name>
+      <Name>TD.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\NoteData\NoteData.csproj">
       <Project>{faacada0-e230-4880-ba4a-dfc5baa6b5fd}</Project>

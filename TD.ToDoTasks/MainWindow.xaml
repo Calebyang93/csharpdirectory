@@ -1,0 +1,125 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:TD.ToDoTasks"
+        xmlns:model="clr-namespace:Model;assembly=TD.Model" 
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        xmlns:skinManager="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+        x:Class="TD.ToDoTasks.MainWindow"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="WPF1" Height="450" Width="800">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="tdStatusData"
+                            MethodName="GetValues" 
+                            ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="model:ToDoStatus" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <local:MainWindowVM/>
+        <!--<local:ViewModel/>-->
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="1" Margin="5">
+            <TabItem Header="Main" Width="100">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <!--<Button Grid.Row="0" Grid.Column="0" x:Name="btnClickMe" Content="Click Me!" Click="btnClickMe_Click" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"  />-->
+                    <TextBlock Grid.Row="0" Grid.Column="1" x:Name="tbMsg" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Settings" Width="100">
+            </TabItem>
+            <TabItem Header="ToDoItems" Width="100">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <!--<TextBox>These are the To Do Items</TextBox>-->
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Content="Refresh" Command="{Binding GetItemsCommand}" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <Button Content="Save" Command="{Binding SaveCommand}" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    </StackPanel>
+                    <!--<ListBox x:Name="lbTodoItems" Grid.Row="1" HorizontalContentAlignment="Stretch" Margin="130,81,130,19" 
+                 ItemsSource="{Binding TDItems}"
+                 SelectedItem="{Binding SelectedTDItem}"
+                 >
+        </ListBox>-->
+                    <DataGrid Grid.Row="1" Grid.Column="0"
+                              ItemsSource="{Binding TDItems}"
+                              AutoGenerateColumns="False"
+                              >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Desc" Binding="{Binding Description}" />
+                            <DataGridComboBoxColumn Header="Status"
+                                                    SelectedValueBinding="{Binding Status}"
+                                                    ItemsSource="{Binding Mode=OneWay, Source={StaticResource tdStatusData}}"/>
+                            <DataGridTextColumn Header="UserName" Binding="{Binding UserName}" />
+                            <DataGridTextColumn Header="Category" Binding="{Binding Category}" />
+                            <DataGridTextColumn Header="CreatedOn" Binding="{Binding CreatedOn}" />
+                            <DataGridTemplateColumn Header="Deadline">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <DatePicker SelectedDate="{Binding Deadline}" BorderThickness="0" />
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <TextBox Grid.Row="2" Text="{Binding Info}" VerticalAlignment="Center" />
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="SFGrid" Width="100">
+                <Grid x:Name="Root_Grid">
+                    <syncfusion:SfDataGrid  x:Name="dataGrid" 
+                                            ItemsSource="{Binding TDItems}"
+                                            AllowFiltering="True"
+                                            AllowEditing="True"
+                                            AllowDeleting="True"
+                                            AutoGenerateColumns="False"
+                                            skinManager:SfSkinManager.VisualStyle="Blend"
+                                            >
+                        <syncfusion:SfDataGrid.Columns>
+                            <syncfusion:GridTextColumn MappingName="Description"/>
+                            <syncfusion:GridDateTimeColumn MappingName="Deadline"/>
+                            <syncfusion:GridComboBoxColumn MappingName="Status" ItemsSource="{Binding Source={StaticResource tdStatusData},Mode=OneWay}"/>
+                        </syncfusion:SfDataGrid.Columns>
+
+                        <syncfusion:SfDataGrid.SortColumnDescriptions>
+                            <syncfusion:SortColumnDescription ColumnName="UserName"/>
+                        </syncfusion:SfDataGrid.SortColumnDescriptions>
+                    </syncfusion:SfDataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

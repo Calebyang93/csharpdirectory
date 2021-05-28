@@ -10,3 +10,14 @@ C:\Users\cyhc9\Documents\C#\CalebProjects\NoteData\obj\Debug\netstandard2.0\Note
 C:\Users\cyhc9\Documents\C#\CalebProjects\NoteData\bin\Debug\netstandard2.0\Model.dll
 C:\Users\cyhc9\Documents\C#\CalebProjects\NoteData\bin\Debug\netstandard2.0\Model.pdb
 C:\Users\cyhc9\Documents\C#\CalebProjects\NoteData\obj\Debug\netstandard2.0\NoteData.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\NoteData\bin\Debug\netstandard2.0\NoteData.deps.json
+C:\Users\lenovo\csharpdirectory\NoteData\bin\Debug\netstandard2.0\NoteData.dll
+C:\Users\lenovo\csharpdirectory\NoteData\bin\Debug\netstandard2.0\NoteData.pdb
+C:\Users\lenovo\csharpdirectory\NoteData\obj\Debug\netstandard2.0\NoteData.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\NoteData\obj\Debug\netstandard2.0\NoteData.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\NoteData\obj\Debug\netstandard2.0\NoteData.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\NoteData\obj\Debug\netstandard2.0\NoteData.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\NoteData\obj\Debug\netstandard2.0\NoteData.dll
+C:\Users\lenovo\csharpdirectory\NoteData\obj\Debug\netstandard2.0\NoteData.pdb
+C:\Users\lenovo\csharpdirectory\NoteData\bin\Debug\netstandard2.0\TD.Model.dll
+C:\Users\lenovo\csharpdirectory\NoteData\bin\Debug\netstandard2.0\TD.Model.pdb

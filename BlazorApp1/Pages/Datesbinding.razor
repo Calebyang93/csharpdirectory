@@ -1,0 +1,19 @@
+﻿<h3> Databindingofdates</h3> @BoundValue
+<ul> 3 June 2020: </ul> @BoundValue1
+<ul> 4 June 2020 </ul> @BoundValue2
+<ul> 5 June 2020 </ul> @BoundValue3
+<h4> These are the dates that are arranged in synchronological order. </h4>
+@code {
+    private DateTime BoundValue { get; set; }
+    private DateTime BoundValue1 { get; set; }
+    private DateTime BoundValue2 { get; set; }
+    private DateTime BoundValue3 { get; set; }
+    private Array myDataList { get; set; }
+}
+
+@inject IHttpClientFactory ClientFactory
+// Use the NoAuthenticationClient  
+    var client = ClientFactory.CreateClient("ServerAPI.NoAuthenticationClient");
+    forecasts = 
+        await client.GetFromJsonAsyncDateTime();
+        ("MyList");

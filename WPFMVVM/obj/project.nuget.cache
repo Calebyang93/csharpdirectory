@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zFsPMsfkzRJsLzdWSNgXXa0+S0gWlwVlD3tvxjZJATvKhzaXk9EW/Coi+zt5vLl7AhApfklLGJgqGY/v/1O2iQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\WPFMVVM\\WPFMVVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\devexpressmvvm\\20.1.6\\devexpressmvvm.20.1.6.nupkg.sha512"
+  ],
+  "logs": []
+}

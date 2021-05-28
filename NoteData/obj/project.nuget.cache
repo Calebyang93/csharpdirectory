@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "IyKWSrnEnj5swhd2Mha+UpDb9xY92FrhETsOSHQshM9JCirzigcRmz6xEGZiV95i3LC8sq+7/VOHLwY4VXz8Zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo\\csharpdirectory\\NoteData\\NoteData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.data.sqlite\\1.0.110\\system.data.sqlite.1.0.110.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\system.data.sqlite.core\\1.0.110\\system.data.sqlite.core.1.0.110.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

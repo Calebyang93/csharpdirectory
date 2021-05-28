@@ -1,0 +1,20 @@
+﻿@page "/component2" 
+
+<input @bind="BoundValue" @bind:event="oninput" />
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    public DateTime date { get; set; }
+    public string BoundValue { get; set; }
+}
+
+<h3>Component2</h3>
+<h4>@MyCaption</h4>
+@foreach (var item in MyTDList)
+{
+    <h5>@item.Category</h5>
+}
+@foreach (var item in MyTDList)
+{
+    <h5>@item.DateTime</h5>
+}

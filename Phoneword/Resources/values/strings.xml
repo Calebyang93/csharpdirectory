@@ -1,0 +1,5 @@
+<resources>
+    <string name="translationHistory">Translation History</string>
+    <string name="app_name">Phone Word</string>
+    <string name="action_settings">Settings</string>
+</resources>

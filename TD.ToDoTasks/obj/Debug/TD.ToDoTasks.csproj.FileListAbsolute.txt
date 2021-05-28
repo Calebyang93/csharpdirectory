@@ -1,0 +1,15 @@
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\bin\Debug\TD.ToDoTasks.exe.config
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\bin\Debug\TD.ToDoTasks.exe
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\bin\Debug\TD.ToDoTasks.pdb
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\App.g.cs
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks_MarkupCompile.cache
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks_MarkupCompile.lref
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\MainWindow.baml
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.g.resources
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.Properties.Resources.resources
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.csproj.GenerateResource.cache
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.exe
+C:\Users\lenovo\csharpdirectory\TD.ToDoTasks\obj\Debug\TD.ToDoTasks.pdb

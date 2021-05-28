@@ -7,3 +7,11 @@ C:\Users\cyhc9\Documents\C#\CalebProjects\Utils2\obj\Debug\netcoreapp2.2\Utils2.
 C:\Users\cyhc9\Documents\C#\CalebProjects\Utils2\obj\Debug\netcoreapp2.2\Utils2.AssemblyInfo.cs
 C:\Users\cyhc9\Documents\C#\CalebProjects\Utils2\obj\Debug\netcoreapp2.2\Utils2.dll
 C:\Users\cyhc9\Documents\C#\CalebProjects\Utils2\obj\Debug\netcoreapp2.2\Utils2.pdb
+C:\Users\lenovo\csharpdirectory\Utils2\bin\Debug\netcoreapp2.2\Utils2.deps.json
+C:\Users\lenovo\csharpdirectory\Utils2\bin\Debug\netcoreapp2.2\Utils2.dll
+C:\Users\lenovo\csharpdirectory\Utils2\bin\Debug\netcoreapp2.2\Utils2.pdb
+C:\Users\lenovo\csharpdirectory\Utils2\obj\Debug\netcoreapp2.2\Utils2.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\Utils2\obj\Debug\netcoreapp2.2\Utils2.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\Utils2\obj\Debug\netcoreapp2.2\Utils2.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\Utils2\obj\Debug\netcoreapp2.2\Utils2.dll
+C:\Users\lenovo\csharpdirectory\Utils2\obj\Debug\netcoreapp2.2\Utils2.pdb

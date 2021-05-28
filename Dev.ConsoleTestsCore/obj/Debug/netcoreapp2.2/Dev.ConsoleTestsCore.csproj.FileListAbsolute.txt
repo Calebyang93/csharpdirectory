@@ -12,3 +12,17 @@ C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTestsCore\obj\Debug\netcore
 C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.csproj.CopyComplete
 C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.dll
 C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.pdb
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.deps.json
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.runtimeconfig.json
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.runtimeconfig.dev.json
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.dll
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.pdb
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Utils2.dll
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\bin\Debug\netcoreapp2.2\Utils2.pdb
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.dll
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.pdb
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTestsCore\obj\Debug\netcoreapp2.2\Dev.ConsoleTestsCore.genruntimeconfig.cache

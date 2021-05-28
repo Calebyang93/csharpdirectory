@@ -1,0 +1,9 @@
+C:\Users\lenovo\csharpdirectory\Model\bin\Debug\netstandard2.0\TD.Model.deps.json
+C:\Users\lenovo\csharpdirectory\Model\bin\Debug\netstandard2.0\TD.Model.dll
+C:\Users\lenovo\csharpdirectory\Model\bin\Debug\netstandard2.0\TD.Model.pdb
+C:\Users\lenovo\csharpdirectory\Model\obj\Debug\netstandard2.0\TD.Model.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\Model\obj\Debug\netstandard2.0\TD.Model.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\Model\obj\Debug\netstandard2.0\TD.Model.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\Model\obj\Debug\netstandard2.0\TD.Model.dll
+C:\Users\lenovo\csharpdirectory\Model\obj\Debug\netstandard2.0\TD.Model.pdb
+C:\Users\lenovo\csharpdirectory\Model\obj\Debug\netstandard2.0\TD.Model.csproj.CoreCompileInputs.cache

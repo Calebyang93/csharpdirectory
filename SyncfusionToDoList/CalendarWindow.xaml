@@ -1,0 +1,78 @@
+<syncfusion:RibbonWindow x:Class="SyncfusionToDoList.CalendarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SyncfusionToDoList"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        xmlns:skinmanager="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+        mc:Ignorable="d" WindowState="Maximized" Office2010Icon="outlook.png" Icon="outlook.ico"
+        Title="CalendarWindow" Height="350" Width="525" skinmanager:SfSkinManager.VisualStyle="Metro">
+    <syncfusion:RibbonWindow.DataContext>
+        <local:OutlookViewModel/>
+    </syncfusion:RibbonWindow.DataContext>
+    <syncfusion:RibbonWindow.StatusBar>
+        <syncfusion:RibbonStatusBar>
+            <StackPanel Margin="20,0,0,0" Orientation="Horizontal">
+                <TextBlock Foreground="White" Text="All Folders are up to date"></TextBlock>
+            </StackPanel>
+        </syncfusion:RibbonStatusBar>
+    </syncfusion:RibbonWindow.StatusBar>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <syncfusion:Ribbon VerticalAlignment="Top" IsQATContextMenuEnabled="True" IsQATCustomizationEnabled="True" EnableMoreCommands="True" BackStageCornerImageVisibility="Collapsed">
+
+            <local:Home/>
+            <local:SendRecieve/>
+            <local:Folder/>
+            <local:View/>
+            
+            <syncfusion:Ribbon.QuickAccessToolBar>
+                <syncfusion:QuickAccessToolBar></syncfusion:QuickAccessToolBar>
+            </syncfusion:Ribbon.QuickAccessToolBar>
+            
+        </syncfusion:Ribbon>
+
+        <Grid Grid.Row="1" x:Name="rootgrid" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="270"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <syncfusion:GroupBar x:Name="groupBar" Grid.Column="0" ShowGripper="False" VisualMode="StackMode" HeaderHeight="0" AllowCollapse="False" Orientation="Vertical" 
+                         ItemHeaderHeight="28" SaveOriginalState="True" FlowDirection= "LeftToRight" IsEnabledContextMenu="False" 
+                         TextAlignment="Left">
+
+                <syncfusion:GroupBarItem  x:Name="CalendarItem" HeaderText="Calendar" IsSelected="True" >
+                    <syncfusion:GroupBarItem.Content>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <syncfusion:CalendarEdit x:Name="calendarEdit1" Margin="0,15,0,0" Grid.Row="0"
+                                             Date="{Binding FirstCalender, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                            />
+                            <syncfusion:CalendarEdit x:Name="calendarEdit2" Grid.Row="1" 
+                                             Margin="0,15,0,0" Date="{Binding SecondCalender, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        </Grid>
+                    </syncfusion:GroupBarItem.Content>
+                </syncfusion:GroupBarItem>
+        
+
+            </syncfusion:GroupBar>
+            <ContentControl  Grid.Column="2" >
+                <ContentControl.Content>
+                    <Grid>
+                        <Grid x:Name="grid1">
+                            <syncfusion:SfSchedule x:Name="Schedule" ScheduleType="Month" />
+                        </Grid>
+                    </Grid>
+                </ContentControl.Content>
+            </ContentControl>
+        </Grid>
+    </Grid>
+</syncfusion:RibbonWindow>

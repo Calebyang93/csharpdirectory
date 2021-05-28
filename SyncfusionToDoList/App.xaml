@@ -1,0 +1,10 @@
+<Application x:Class="SyncfusionToDoList.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+             xmlns:local="clr-namespace:SyncfusionToDoList"
+             StartupUri="CalendarWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

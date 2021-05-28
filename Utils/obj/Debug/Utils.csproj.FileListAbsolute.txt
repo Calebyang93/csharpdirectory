@@ -19,3 +19,13 @@ C:\Users\cyhc9\Documents\C#\CalebProjects\Utils\bin\Debug\System.Data.SQLite.dll
 C:\Users\cyhc9\Documents\C#\CalebProjects\Utils\bin\Debug\System.Data.SQLite.xml
 C:\Users\cyhc9\Documents\C#\CalebProjects\Utils\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\cyhc9\Documents\C#\CalebProjects\Utils\obj\Debug\Utils.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\Utils\bin\Debug\Utils.dll
+C:\Users\lenovo\csharpdirectory\Utils\bin\Debug\Utils.pdb
+C:\Users\lenovo\csharpdirectory\Utils\bin\Debug\System.Data.SQLite.dll
+C:\Users\lenovo\csharpdirectory\Utils\bin\Debug\System.Data.SQLite.xml
+C:\Users\lenovo\csharpdirectory\Utils\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\lenovo\csharpdirectory\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\csharpdirectory\Utils\obj\Debug\Utils.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\Utils\obj\Debug\Utils.dll
+C:\Users\lenovo\csharpdirectory\Utils\obj\Debug\Utils.pdb

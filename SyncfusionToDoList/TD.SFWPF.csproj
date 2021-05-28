@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="outlook.ico" />
+    <None Remove="outlook.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+
+<PackageReference Include="Syncfusion.Shared.WPF" Version="18.2.0.44" />
+<PackageReference Include="Syncfusion.Tools.WPF" Version="18.2.0.44" />
+<PackageReference Include="Syncfusion.SfSchedule.WPF" Version="18.2.0.44" />
+<PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="18.2.0.44" />
+<PackageReference Include="Syncfusion.Themes.Metro.Wpf" Version="18.2.0.44" />
+</ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="outlook.ico" />
+    <Resource Include="outlook.png" />
+  </ItemGroup>
+</Project>

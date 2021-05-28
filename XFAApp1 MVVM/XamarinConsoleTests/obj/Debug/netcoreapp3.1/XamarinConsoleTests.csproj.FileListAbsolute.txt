@@ -1,0 +1,13 @@
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\bin\Debug\netcoreapp3.1\XamarinConsoleTests.exe
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\bin\Debug\netcoreapp3.1\XamarinConsoleTests.deps.json
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\bin\Debug\netcoreapp3.1\XamarinConsoleTests.runtimeconfig.json
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\bin\Debug\netcoreapp3.1\XamarinConsoleTests.runtimeconfig.dev.json
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\bin\Debug\netcoreapp3.1\XamarinConsoleTests.dll
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\bin\Debug\netcoreapp3.1\XamarinConsoleTests.pdb
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.dll
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.pdb
+C:\Users\lenovo\csharpdirectory\XamarinConsoleTests\obj\Debug\netcoreapp3.1\XamarinConsoleTests.genruntimeconfig.cache

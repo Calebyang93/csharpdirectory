@@ -1,0 +1,85 @@
+﻿@page "/index"
+@inject IJSRuntime JSRuntime 
+
+public abstract task 
+
+<h1>To Do task Application!</h1>
+
+<button type="button" class="btn btn-primary" @onclick="TaskArray">
+    New Task .NET instance method HelloHelper.SayHello 
+</button>
+
+@code {
+    public async Task TriggerNetInstanceMethod()
+    {
+        //var exampleJsTaskSearch = new ExampleJsTasksearch(JSRuntime);
+        //await ExampleJsTasksearch.CallHelloHelperSayHello("Blazor");
+
+    }
+}
+
+<p class="mt-3"> style="font-size: 15px">
+<span class="badge badge-success">
+    @convertedText  
+</span>
+</p>
+
+@code {
+    private MarkupString convertedText =
+        new MarkupString("Select the <b>TaskArray</b> button. ");
+    private uint[] taskidArray = new uint[]
+    {
+        100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114,
+        115, 116, 117, 118, 119, 201, 202, 203
+    };
+
+    private MarkupString inlineText =
+        new MarkupString("Select the <b>DescriptionArrray</b> button. ");
+    //private ustring[] outcomeidArray = new ustring[]
+    //{
+    //    unknown, start, inprogress, completed, unknown, archived
+    //};
+
+    private async Task TaskArray()
+    {
+        var text =
+            await JSRuntime.InvokeAsync<string>("TaskArray", taskidArray);
+        convertedText = new MarkupString(text);
+    }
+
+}
+
+@code {
+    [Inject]
+    IJSRuntime JSRunTime { get; set; }
+
+    protected override void OnInitialized()
+    {
+        TasksService.OnTaskTickerUpdated += taskUpdate =>
+        {
+            JSRuntime.InvokeVoidAsync("handleTaskChanged",
+                taskUpdate.symbol, taskUpdate.id);
+        };
+    }
+}
+Welcome to your new app.
+
+
+<button type="button" class="btn-block"
+        onclick="=exampleTasklistFunction.returnArrayAsyncJs()">
+    Trigger .NET static method ReturnArrayAsync
+</button>
+
+@*@code {
+    [JSInvokable]
+    private string[] taskcompletionArr = new taskcompletionArr();
+    private string[] taskstatusArr = new taskstatusArr();
+    private static Task<int[]> Return 
+        ArrayAsync();
+    {
+        return Task.FromResult(new
+            statusStr['completed', 'in progress', 'unknown']
+            );
+        ;
+    }
+}*@

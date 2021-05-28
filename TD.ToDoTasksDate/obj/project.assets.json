@@ -1,0 +1,4066 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EntityFramework/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.2.8-ci1990": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes/3.2.1-ci1990": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "[1.2.8-ci1990, 2.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Syncfusion.Calculate.Base/18.2.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Calculate.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Calculate.Base.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/18.2.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll": {}
+        }
+      },
+      "Syncfusion.Data.WPF/18.2.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Data.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Data.WPF.dll": {}
+        }
+      },
+      "Syncfusion.DocIO.Wpf/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.OfficeChart.Base": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.Edit.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59",
+          "Syncfusion.Tools.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Edit.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Edit.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Gantt.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Grid.WPF": "18.2.0.59",
+          "Syncfusion.GridCommon.Wpf": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.ProjIO.Base": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Gantt.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Gantt.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Grid.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.Linq.Base": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Grid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Grid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/18.2.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/18.2.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/18.2.0.59": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Linq.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Linq.Base.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Base/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.Wpf/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Pdf.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Pdf.Base.dll": {}
+        }
+      },
+      "Syncfusion.PdfViewer.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.Pdf.Wpf": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.PdfViewer.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.PdfViewer.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Presentation.Wpf/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.OfficeChart.Base": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Presentation.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Presentation.Base.dll": {}
+        }
+      },
+      "Syncfusion.ProjIO.Base/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.ProjIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.ProjIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.PropertyGrid.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfInput.WPF": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59",
+          "Syncfusion.Tools.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.PropertyGrid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.PropertyGrid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfAccordion.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfAccordion.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfAccordion.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfBarcode.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfBarcode.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfBarcode.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfBulletGraph.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfBulletGraph.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfBulletGraph.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfBusyIndicator.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfBusyIndicator.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfBusyIndicator.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfCellGrid.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfGridCommon.WPF": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59",
+          "Syncfusion.XlsIO.Wpf": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfCellGrid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfCellGrid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfChart.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfChromelessWindow.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfChromelessWindow.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfChromelessWindow.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfColorPalette.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfRadialMenu.WPF": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfColorPalette.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfColorPalette.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfDiagram.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfDiagram.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfDiagram.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfGauge.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfGauge.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfGauge.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfGrid.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Data.WPF": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfGrid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfGrid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfGridCommon.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfGridCommon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfGridCommon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfHeatMap.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfHeatMap.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfHeatMap.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfHubTile.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfHubTile.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfHubTile.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfInput.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfInput.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfInput.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfKanban.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfKanban.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfKanban.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfMaps.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfMaps.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfMaps.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfNavigationDrawer.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfNavigationDrawer.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfNavigationDrawer.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfProgressBar.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfProgressBar.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfProgressBar.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfRadialMenu.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfRadialMenu.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfRichTextBoxAdv.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.DocIO.Wpf": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.OfficeChart.Base": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfRichTextBoxAdv.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfRichTextBoxAdv.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfRichTextRibbon.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.DocIO.Wpf": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.OfficeChart.Base": "18.2.0.59",
+          "Syncfusion.SfRichTextBoxAdv.WPF": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59",
+          "Syncfusion.Tools.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfRichTextRibbon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfRichTextRibbon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfSchedule.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfRadialMenu.WPF": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfSchedule.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSchedule.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfShared.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfShared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfShared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfSkinManager.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfSmithChart.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfSmithChart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSmithChart.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfSpreadsheet.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfCellGrid.WPF": "18.2.0.59",
+          "Syncfusion.SfGridCommon.WPF": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59",
+          "Syncfusion.Tools.WPF": "18.2.0.59",
+          "Syncfusion.XlsIO.Wpf": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfSpreadsheet.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfSpreadsheet.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfTreeMap.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfTreeMap.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfTreeMap.WPF.dll": {}
+        }
+      },
+      "Syncfusion.SfTreeNavigator.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfShared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.SfTreeNavigator.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.SfTreeNavigator.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.Base/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll": {}
+        }
+      },
+      "Syncfusion.Shared.MVVM.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.PropertyGrid.WPF": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.MVVM.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.MVVM.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Blend.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Lime.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Metro.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2010Black.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2010Blue.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2010Silver.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2013DarkGray.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2013LightGray.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2013White.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2016Colorful.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2016DarkGray.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office2016White.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Office365.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.Saffron.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.VisualStudio2013.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Themes.VisualStudio2015.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.SfSkinManager.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Tools.WPF/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "18.2.0.59",
+          "Syncfusion.Shared.WPF": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Tools.WPF.dll": {}
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/18.2.0.59": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "18.2.0.59",
+          "Syncfusion.Licensing": "18.2.0.59"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.8.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.110": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "TD.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "System.Data.SqlClient": "4.8.2",
+          "TD.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TD.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TD.Data.dll": {}
+        }
+      },
+      "TD.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "System.Data.SQLite.Core": "1.0.110"
+        },
+        "compile": {
+          "bin/placeholder/TD.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TD.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFramework/6.2.0": {
+      "sha512": "ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "type": "package",
+      "path": "entityframework/6.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net40/App.config.transform",
+        "content/net40/Web.config.transform",
+        "entityframework.6.2.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "MaterialDesignColors/1.2.8-ci1990": {
+      "sha512": "dBGrn/2Dx2cpKTnTzaIBUOWKplEiCOz31nUAMfw3R6yYIYBr5Wtae8Yup3oJCthnr6MCnbX9M55BNbb9vtSMrg==",
+      "type": "package",
+      "path": "materialdesigncolors/1.2.8-ci1990",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net45/MaterialDesignColors.dll",
+        "lib/net45/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.1/MaterialDesignColors.dll",
+        "lib/netcoreapp3.1/MaterialDesignColors.pdb",
+        "materialdesigncolors.1.2.8-ci1990.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/3.2.1-ci1990": {
+      "sha512": "V1+p1TXsi7YUm4TpwNvkmznzhDcJkZYhChX/SHc1OSkVlmWYMEKX+ml9OeRf3oD5wmNMGvgAOhLD7jyL7BJuYA==",
+      "type": "package",
+      "path": "materialdesignthemes/3.2.1-ci1990",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net45/MaterialDesignThemes.Wpf.dll",
+        "lib/net45/MaterialDesignThemes.Wpf.pdb",
+        "lib/net45/MaterialDesignThemes.Wpf.xml",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.pdb",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.3.2.1-ci1990.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.7.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Syncfusion.Calculate.Base/18.2.0.59": {
+      "sha512": "bJJE7v1c1NWRCPot+qyYHDfcog9dyWJAwwL7VBi5KtE57KCCxbA/DR9WBoRDiKwDMpQYEtqn43l8sdje7YmnZQ==",
+      "type": "package",
+      "path": "syncfusion.calculate.base/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.Calculate.Base.dll",
+        "lib/net20/Syncfusion.Calculate.Base.xml",
+        "lib/net35/Syncfusion.Calculate.Base.dll",
+        "lib/net35/Syncfusion.Calculate.Base.xml",
+        "lib/net40/Syncfusion.Calculate.Base.dll",
+        "lib/net40/Syncfusion.Calculate.Base.xml",
+        "lib/net45/Syncfusion.Calculate.Base.dll",
+        "lib/net45/Syncfusion.Calculate.Base.xml",
+        "lib/net451/Syncfusion.Calculate.Base.dll",
+        "lib/net451/Syncfusion.Calculate.Base.xml",
+        "lib/net46/Syncfusion.Calculate.Base.dll",
+        "lib/net46/Syncfusion.Calculate.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Calculate.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Calculate.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.Calculate.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.Calculate.Base.xml",
+        "syncfusion.calculate.base.18.2.0.59.nupkg.sha512",
+        "syncfusion.calculate.base.nuspec"
+      ]
+    },
+    "Syncfusion.Compression.Base/18.2.0.59": {
+      "sha512": "QndAsaS/4qijWqbTGbUvnnevfydiXSsrH2X2bY3BzdvxsUQ0OOq9rmE/eVXtD/19CWnE3oDYK1QKoxredbM5zg==",
+      "type": "package",
+      "path": "syncfusion.compression.base/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.Compression.Base.dll",
+        "lib/net20/Syncfusion.Compression.Base.xml",
+        "lib/net35/Syncfusion.Compression.Base.dll",
+        "lib/net35/Syncfusion.Compression.Base.xml",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.Compression.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.Compression.Base.xml",
+        "syncfusion.compression.base.18.2.0.59.nupkg.sha512",
+        "syncfusion.compression.base.nuspec"
+      ]
+    },
+    "Syncfusion.Data.WPF/18.2.0.59": {
+      "sha512": "fewz9V1+ZU7p8nDHFH0R5ouV5VPnQVTEv841qTD2gN04xjVNvMrJdqtwioDu9ZeiN/PlzEb4wmrKzFdsfWG2Bg==",
+      "type": "package",
+      "path": "syncfusion.data.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Data.WPF.dll",
+        "lib/net40/Syncfusion.Data.WPF.xml",
+        "lib/net45/Syncfusion.Data.WPF.dll",
+        "lib/net45/Syncfusion.Data.WPF.xml",
+        "lib/net451/Syncfusion.Data.WPF.dll",
+        "lib/net451/Syncfusion.Data.WPF.xml",
+        "lib/net46/Syncfusion.Data.WPF.dll",
+        "lib/net46/Syncfusion.Data.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Data.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Data.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Data.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Data.WPF.xml",
+        "syncfusion.data.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.data.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.DocIO.Wpf/18.2.0.59": {
+      "sha512": "sFTqWRCvt8Cci2qzzOVXpw+ijJXRgqOaDB/T+duAT5Yf7U3t/T5AeKXL/0YgJGxJBmnVlG+eI3v3HsvLXUqoIw==",
+      "type": "package",
+      "path": "syncfusion.docio.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.DocIO.Base.dll",
+        "lib/net35/Syncfusion.DocIO.Base.xml",
+        "lib/net40/Syncfusion.DocIO.Base.dll",
+        "lib/net40/Syncfusion.DocIO.Base.xml",
+        "lib/net45/Syncfusion.DocIO.Base.dll",
+        "lib/net45/Syncfusion.DocIO.Base.xml",
+        "lib/net451/Syncfusion.DocIO.Base.dll",
+        "lib/net451/Syncfusion.DocIO.Base.xml",
+        "lib/net46/Syncfusion.DocIO.Base.dll",
+        "lib/net46/Syncfusion.DocIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.DocIO.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.DocIO.Base.xml",
+        "syncfusion.docio.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.docio.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Edit.WPF/18.2.0.59": {
+      "sha512": "vI2EUHFtlYVfKnrJ//kfCFOvXH7hFnskU3HbpXwb6F0OCH86P+iTmtC+THlSdd2IJKi5FwPvUIDy3AliP1eTZg==",
+      "type": "package",
+      "path": "syncfusion.edit.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Edit.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Edit.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Edit.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Edit.WPF.dll",
+        "lib/net35/Syncfusion.Edit.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Edit.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Edit.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Edit.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Edit.WPF.dll",
+        "lib/net40/Syncfusion.Edit.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Edit.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Edit.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Edit.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Edit.WPF.dll",
+        "lib/net45/Syncfusion.Edit.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Edit.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Edit.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Edit.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Edit.WPF.dll",
+        "lib/net451/Syncfusion.Edit.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Edit.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Edit.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Edit.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Edit.WPF.dll",
+        "lib/net46/Syncfusion.Edit.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Edit.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Edit.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.Edit.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.Edit.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Edit.WPF.xml",
+        "syncfusion.edit.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.edit.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Gantt.WPF/18.2.0.59": {
+      "sha512": "8D9uJU38ou2ylGcQy+m7hHx7DEM8Dt/B/LnOEEvdiRCrAarr81khJju6CLCpf/+7TObSJVuURLFpx2jW+gco8g==",
+      "type": "package",
+      "path": "syncfusion.gantt.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Gantt.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Gantt.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Gantt.WPF.dll",
+        "lib/net35/Syncfusion.Gantt.WPF.xml",
+        "lib/net40/Design/Syncfusion.Gantt.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Gantt.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Gantt.WPF.dll",
+        "lib/net40/Syncfusion.Gantt.WPF.xml",
+        "lib/net45/Design/Syncfusion.Gantt.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Gantt.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Gantt.WPF.dll",
+        "lib/net45/Syncfusion.Gantt.WPF.xml",
+        "lib/net451/Design/Syncfusion.Gantt.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Gantt.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Gantt.WPF.dll",
+        "lib/net451/Syncfusion.Gantt.WPF.xml",
+        "lib/net46/Design/Syncfusion.Gantt.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Gantt.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Gantt.WPF.dll",
+        "lib/net46/Syncfusion.Gantt.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Gantt.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Gantt.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Gantt.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Gantt.WPF.xml",
+        "syncfusion.gantt.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.gantt.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Grid.WPF/18.2.0.59": {
+      "sha512": "JX/0H9WPyKKVXJPahq1LnQ1+z5xsXVyq+m6UwQXr/TokfurTVa1UWpczytSIzQamBSKN+NZ7hRgL7rz3zjZuiQ==",
+      "type": "package",
+      "path": "syncfusion.grid.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Grid.WPF.dll",
+        "lib/net35/Syncfusion.Grid.WPF.xml",
+        "lib/net40/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Grid.WPF.dll",
+        "lib/net40/Syncfusion.Grid.WPF.xml",
+        "lib/net45/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Grid.WPF.dll",
+        "lib/net45/Syncfusion.Grid.WPF.xml",
+        "lib/net451/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Grid.WPF.dll",
+        "lib/net451/Syncfusion.Grid.WPF.xml",
+        "lib/net46/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Grid.WPF.dll",
+        "lib/net46/Syncfusion.Grid.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.Grid.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Grid.WPF.xml",
+        "syncfusion.grid.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.grid.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.GridCommon.Wpf/18.2.0.59": {
+      "sha512": "xtoy/DBsBHzD+QxzvPAiLJ4aRdhDLwNOfUxWLnGwHGpijfgSyH/EqWaAfAqKEodRG8CgQoGKuetEylVNE+a/Cw==",
+      "type": "package",
+      "path": "syncfusion.gridcommon.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.GridCommon.WPF.dll",
+        "lib/net35/Syncfusion.GridCommon.WPF.xml",
+        "lib/net40/Syncfusion.GridCommon.WPF.dll",
+        "lib/net40/Syncfusion.GridCommon.WPF.xml",
+        "lib/net45/Syncfusion.GridCommon.WPF.dll",
+        "lib/net45/Syncfusion.GridCommon.WPF.xml",
+        "lib/net451/Syncfusion.GridCommon.WPF.dll",
+        "lib/net451/Syncfusion.GridCommon.WPF.xml",
+        "lib/net46/Syncfusion.GridCommon.WPF.dll",
+        "lib/net46/Syncfusion.GridCommon.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.GridCommon.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.GridCommon.WPF.xml",
+        "syncfusion.gridcommon.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.gridcommon.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/18.2.0.59": {
+      "sha512": "sfq2Tu9Gbgj+xDtiygdRYLHEsLSiumGhvqUbytkK6oGi89Iu1kSiMJSGXiqX+nXjREgrM7mdDx5PmGg7c4X9jQ==",
+      "type": "package",
+      "path": "syncfusion.licensing/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netcoreapp5.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.18.2.0.59.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Linq.Base/18.2.0.59": {
+      "sha512": "Dyfhm8Vp152HJ4U3KCdu14ngE8L8fFA0CL8WJ11B580yFY5tgZhM65xZys8AiKFfnDIiw0p9ZabVoBIZD/apVQ==",
+      "type": "package",
+      "path": "syncfusion.linq.base/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Linq.Base.dll",
+        "lib/net35/Syncfusion.Linq.Base.xml",
+        "lib/net40/Syncfusion.Linq.Base.dll",
+        "lib/net40/Syncfusion.Linq.Base.xml",
+        "lib/net45/Syncfusion.Linq.Base.dll",
+        "lib/net45/Syncfusion.Linq.Base.xml",
+        "lib/net451/Syncfusion.Linq.Base.dll",
+        "lib/net451/Syncfusion.Linq.Base.xml",
+        "lib/net46/Syncfusion.Linq.Base.dll",
+        "lib/net46/Syncfusion.Linq.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Linq.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Linq.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.Linq.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.Linq.Base.xml",
+        "syncfusion.linq.base.18.2.0.59.nupkg.sha512",
+        "syncfusion.linq.base.nuspec"
+      ]
+    },
+    "Syncfusion.OfficeChart.Base/18.2.0.59": {
+      "sha512": "UtaAtOrmA08L3/55nScy6iHs2arU4u1ix8shSY4mWQJB+ZW1X/IWn9S+kCKQikCWc7mkTuQhkgxzqyk8MQw/7Q==",
+      "type": "package",
+      "path": "syncfusion.officechart.base/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.OfficeChart.Base.dll",
+        "lib/net20/Syncfusion.OfficeChart.Base.xml",
+        "lib/net35/Syncfusion.OfficeChart.Base.dll",
+        "lib/net35/Syncfusion.OfficeChart.Base.xml",
+        "lib/net40/Syncfusion.OfficeChart.Base.dll",
+        "lib/net40/Syncfusion.OfficeChart.Base.xml",
+        "lib/net45/Syncfusion.OfficeChart.Base.dll",
+        "lib/net45/Syncfusion.OfficeChart.Base.xml",
+        "lib/net451/Syncfusion.OfficeChart.Base.dll",
+        "lib/net451/Syncfusion.OfficeChart.Base.xml",
+        "lib/net46/Syncfusion.OfficeChart.Base.dll",
+        "lib/net46/Syncfusion.OfficeChart.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.OfficeChart.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.OfficeChart.Base.xml",
+        "syncfusion.officechart.base.18.2.0.59.nupkg.sha512",
+        "syncfusion.officechart.base.nuspec"
+      ]
+    },
+    "Syncfusion.Pdf.Wpf/18.2.0.59": {
+      "sha512": "httk9KTgX/LPOK8K9edlQ/23jlnL9zoIG3hQCsTLRqIkniahmS/oxnVrONf/5hU2Z38AD3ORkoKaV31CxRHLBw==",
+      "type": "package",
+      "path": "syncfusion.pdf.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Pdf.Base.dll",
+        "lib/net35/Syncfusion.Pdf.Base.xml",
+        "lib/net40/Syncfusion.Pdf.Base.dll",
+        "lib/net40/Syncfusion.Pdf.Base.xml",
+        "lib/net45/Syncfusion.Pdf.Base.dll",
+        "lib/net45/Syncfusion.Pdf.Base.xml",
+        "lib/net451/Syncfusion.Pdf.Base.dll",
+        "lib/net451/Syncfusion.Pdf.Base.xml",
+        "lib/net46/Syncfusion.Pdf.Base.dll",
+        "lib/net46/Syncfusion.Pdf.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Pdf.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Pdf.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.Pdf.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.Pdf.Base.xml",
+        "syncfusion.pdf.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.pdf.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.PdfViewer.WPF/18.2.0.59": {
+      "sha512": "7u2YI8oa5ElTWbHdXFCMo3I50R04Vt3ITQ1xL/mm1js06arpOTsGPapFOZXo5MNLt+QOjQmLIQjwbFQNdzsLkQ==",
+      "type": "package",
+      "path": "syncfusion.pdfviewer.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.PdfViewer.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.PdfViewer.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.PdfViewer.WPF.dll",
+        "lib/net35/Syncfusion.PdfViewer.WPF.xml",
+        "lib/net40/Design/Syncfusion.PdfViewer.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.PdfViewer.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.PdfViewer.WPF.dll",
+        "lib/net40/Syncfusion.PdfViewer.WPF.xml",
+        "lib/net45/Design/Syncfusion.PdfViewer.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.PdfViewer.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.PdfViewer.WPF.dll",
+        "lib/net45/Syncfusion.PdfViewer.WPF.xml",
+        "lib/net451/Design/Syncfusion.PdfViewer.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.PdfViewer.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.PdfViewer.WPF.dll",
+        "lib/net451/Syncfusion.PdfViewer.WPF.xml",
+        "lib/net46/Design/Syncfusion.PdfViewer.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.PdfViewer.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.PdfViewer.WPF.dll",
+        "lib/net46/Syncfusion.PdfViewer.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.PdfViewer.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.PdfViewer.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.PdfViewer.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.PdfViewer.WPF.xml",
+        "syncfusion.pdfviewer.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.pdfviewer.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Presentation.Wpf/18.2.0.59": {
+      "sha512": "PpKhcE21wpYJ/zB+BGG20K3ENsUD9KaInH/fr+zk5KmXvxWjAkJXajHhr0kvsSZETS509mLykKAKgfED615obQ==",
+      "type": "package",
+      "path": "syncfusion.presentation.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Presentation.Base.dll",
+        "lib/net35/Syncfusion.Presentation.Base.xml",
+        "lib/net40/Syncfusion.Presentation.Base.dll",
+        "lib/net40/Syncfusion.Presentation.Base.xml",
+        "lib/net45/Syncfusion.Presentation.Base.dll",
+        "lib/net45/Syncfusion.Presentation.Base.xml",
+        "lib/net451/Syncfusion.Presentation.Base.dll",
+        "lib/net451/Syncfusion.Presentation.Base.xml",
+        "lib/net46/Syncfusion.Presentation.Base.dll",
+        "lib/net46/Syncfusion.Presentation.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Presentation.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Presentation.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.Presentation.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.Presentation.Base.xml",
+        "syncfusion.presentation.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.presentation.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.ProjIO.Base/18.2.0.59": {
+      "sha512": "dHllQm6I2RjYFnYJsVLnTLU93WjvGX34yyWXvWUEpQD8fsUI53g6DtuKBi/SW/PkqWbxxPP2DgRUKsPx30tcgQ==",
+      "type": "package",
+      "path": "syncfusion.projio.base/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.ProjIO.Base.dll",
+        "lib/net20/Syncfusion.ProjIO.Base.xml",
+        "lib/net35/Syncfusion.ProjIO.Base.dll",
+        "lib/net35/Syncfusion.ProjIO.Base.xml",
+        "lib/net40/Syncfusion.ProjIO.Base.dll",
+        "lib/net40/Syncfusion.ProjIO.Base.xml",
+        "lib/net45/Syncfusion.ProjIO.Base.dll",
+        "lib/net45/Syncfusion.ProjIO.Base.xml",
+        "lib/net451/Syncfusion.ProjIO.Base.dll",
+        "lib/net451/Syncfusion.ProjIO.Base.xml",
+        "lib/net46/Syncfusion.ProjIO.Base.dll",
+        "lib/net46/Syncfusion.ProjIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.ProjIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.ProjIO.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.ProjIO.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.ProjIO.Base.xml",
+        "syncfusion.projio.base.18.2.0.59.nupkg.sha512",
+        "syncfusion.projio.base.nuspec"
+      ]
+    },
+    "Syncfusion.PropertyGrid.WPF/18.2.0.59": {
+      "sha512": "A3Fz/aCdTXd1U+J65fQpraTO/2HGitMzjitSMixHtkjFO2DOG+Klc0IJRjUvTWOM3BbEIrWWVXUq9i3lrRB9Ww==",
+      "type": "package",
+      "path": "syncfusion.propertygrid.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.PropertyGrid.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.PropertyGrid.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.PropertyGrid.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/net35/Syncfusion.PropertyGrid.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.PropertyGrid.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.PropertyGrid.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.PropertyGrid.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/net40/Syncfusion.PropertyGrid.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.PropertyGrid.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.PropertyGrid.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.PropertyGrid.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/net45/Syncfusion.PropertyGrid.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.PropertyGrid.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.PropertyGrid.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.PropertyGrid.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/net451/Syncfusion.PropertyGrid.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.PropertyGrid.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.PropertyGrid.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.PropertyGrid.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/net46/Syncfusion.PropertyGrid.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.PropertyGrid.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.PropertyGrid.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.PropertyGrid.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.PropertyGrid.WPF.xml",
+        "syncfusion.propertygrid.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.propertygrid.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfAccordion.WPF/18.2.0.59": {
+      "sha512": "O4sUCaabSiDqS4ZR92/V2P1T3BBq4tHQ78Dfs0wbFmz/6hImJp0kATkC/opHvJTrSZjY5iLn7MtmzoJJhfqwBQ==",
+      "type": "package",
+      "path": "syncfusion.sfaccordion.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfAccordion.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfAccordion.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfAccordion.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfAccordion.WPF.dll",
+        "lib/net40/Syncfusion.SfAccordion.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfAccordion.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfAccordion.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfAccordion.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfAccordion.WPF.dll",
+        "lib/net45/Syncfusion.SfAccordion.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfAccordion.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfAccordion.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfAccordion.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfAccordion.WPF.dll",
+        "lib/net451/Syncfusion.SfAccordion.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfAccordion.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfAccordion.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfAccordion.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfAccordion.WPF.dll",
+        "lib/net46/Syncfusion.SfAccordion.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfAccordion.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfAccordion.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfAccordion.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfAccordion.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfAccordion.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfAccordion.WPF.xml",
+        "syncfusion.sfaccordion.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfaccordion.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfBarcode.WPF/18.2.0.59": {
+      "sha512": "h6NE5yFo6AY/paDuc0euqI6lIvqZeIwI9FRYH9JFXJt0/5lInfYnW/G3k97eyieqSQ9JNSoNp0zB1R/IJOUrzQ==",
+      "type": "package",
+      "path": "syncfusion.sfbarcode.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfBarcode.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfBarcode.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfBarcode.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfBarcode.WPF.dll",
+        "lib/net40/Syncfusion.SfBarcode.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfBarcode.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfBarcode.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfBarcode.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfBarcode.WPF.dll",
+        "lib/net45/Syncfusion.SfBarcode.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfBarcode.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfBarcode.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfBarcode.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfBarcode.WPF.dll",
+        "lib/net451/Syncfusion.SfBarcode.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfBarcode.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfBarcode.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfBarcode.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfBarcode.WPF.dll",
+        "lib/net46/Syncfusion.SfBarcode.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfBarcode.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfBarcode.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfBarcode.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfBarcode.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfBarcode.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfBarcode.WPF.xml",
+        "syncfusion.sfbarcode.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfbarcode.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfBulletGraph.WPF/18.2.0.59": {
+      "sha512": "Db04QHbwHtTnZhqdEDNBEliXLhqzfXDBKWT8V5MgSonVX4uFQgzYiBV9e8q+V60i+Rdq9irw3GmzXHbb1O7cYA==",
+      "type": "package",
+      "path": "syncfusion.sfbulletgraph.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfBulletGraph.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfBulletGraph.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfBulletGraph.WPF.dll",
+        "lib/net40/Syncfusion.SfBulletGraph.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfBulletGraph.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfBulletGraph.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfBulletGraph.WPF.dll",
+        "lib/net45/Syncfusion.SfBulletGraph.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfBulletGraph.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfBulletGraph.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfBulletGraph.WPF.dll",
+        "lib/net451/Syncfusion.SfBulletGraph.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfBulletGraph.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfBulletGraph.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfBulletGraph.WPF.dll",
+        "lib/net46/Syncfusion.SfBulletGraph.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfBulletGraph.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfBulletGraph.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfBulletGraph.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfBulletGraph.WPF.xml",
+        "syncfusion.sfbulletgraph.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfbulletgraph.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfBusyIndicator.WPF/18.2.0.59": {
+      "sha512": "rM52cBNVfCu21itPWKr6KnPckSctoUQiaKtyP2PyI59yXAp9xIq5pFE+fS/MuKTcIkRnXE+NoEcYa/Eelxx2IA==",
+      "type": "package",
+      "path": "syncfusion.sfbusyindicator.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfBusyIndicator.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfBusyIndicator.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfBusyIndicator.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfBusyIndicator.WPF.dll",
+        "lib/net40/Syncfusion.SfBusyIndicator.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfBusyIndicator.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfBusyIndicator.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfBusyIndicator.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfBusyIndicator.WPF.dll",
+        "lib/net45/Syncfusion.SfBusyIndicator.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfBusyIndicator.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfBusyIndicator.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfBusyIndicator.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfBusyIndicator.WPF.dll",
+        "lib/net451/Syncfusion.SfBusyIndicator.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfBusyIndicator.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfBusyIndicator.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfBusyIndicator.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfBusyIndicator.WPF.dll",
+        "lib/net46/Syncfusion.SfBusyIndicator.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfBusyIndicator.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfBusyIndicator.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfBusyIndicator.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfBusyIndicator.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfBusyIndicator.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfBusyIndicator.WPF.xml",
+        "syncfusion.sfbusyindicator.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfbusyindicator.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfCellGrid.WPF/18.2.0.59": {
+      "sha512": "swAh8g1TP+Ks09PiJlwEzl+Q0SqCTtDGwn29Bgsuzy1q0952iXS33rZmUuFVrYhH43k2WAAyinL5LoK3v/WzQQ==",
+      "type": "package",
+      "path": "syncfusion.sfcellgrid.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.SfCellGrid.WPF.dll",
+        "lib/net40/Syncfusion.SfCellGrid.WPF.xml",
+        "lib/net45/Syncfusion.SfCellGrid.WPF.dll",
+        "lib/net45/Syncfusion.SfCellGrid.WPF.xml",
+        "lib/net451/Syncfusion.SfCellGrid.WPF.dll",
+        "lib/net451/Syncfusion.SfCellGrid.WPF.xml",
+        "lib/net46/Syncfusion.SfCellGrid.WPF.dll",
+        "lib/net46/Syncfusion.SfCellGrid.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfCellGrid.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfCellGrid.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfCellGrid.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfCellGrid.WPF.xml",
+        "syncfusion.sfcellgrid.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfcellgrid.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfChart.WPF/18.2.0.59": {
+      "sha512": "WhQ71/6BoXa3I860lsnnif3wJ9mkTsnSeVhQ+a8gTO99wJD3o4F1BDvqSdniyxnkm8H3kpeQAW8hDLt+RD/B8A==",
+      "type": "package",
+      "path": "syncfusion.sfchart.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfChart.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfChart.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfChart.WPF.xml",
+        "syncfusion.sfchart.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfchart.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfChromelessWindow.WPF/18.2.0.59": {
+      "sha512": "oaNfYRgBggxiFRnQNnq+LJ0qWaiflVIloQBQFbEF6KHwyMJzDGU+D3SQiPee2KhDVkazLRor5lHjy2dp0hCf6A==",
+      "type": "package",
+      "path": "syncfusion.sfchromelesswindow.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfChromelessWindow.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfChromelessWindow.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfChromelessWindow.WPF.dll",
+        "lib/net40/Syncfusion.SfChromelessWindow.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfChromelessWindow.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfChromelessWindow.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfChromelessWindow.WPF.dll",
+        "lib/net45/Syncfusion.SfChromelessWindow.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfChromelessWindow.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfChromelessWindow.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfChromelessWindow.WPF.dll",
+        "lib/net451/Syncfusion.SfChromelessWindow.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfChromelessWindow.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfChromelessWindow.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfChromelessWindow.WPF.dll",
+        "lib/net46/Syncfusion.SfChromelessWindow.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfChromelessWindow.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfChromelessWindow.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfChromelessWindow.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfChromelessWindow.WPF.xml",
+        "syncfusion.sfchromelesswindow.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfchromelesswindow.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfColorPalette.WPF/18.2.0.59": {
+      "sha512": "c6Tgve43bZCphjYQDTLNK/6KzCVAAVCaosrQNFrp5tEKzuwc+TQC4svC9SqNuaA084/wn3cnmGNndny7E1AMkA==",
+      "type": "package",
+      "path": "syncfusion.sfcolorpalette.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net40/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net45/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net451/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net46/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfColorPalette.WPF.xml",
+        "syncfusion.sfcolorpalette.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfcolorpalette.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfDiagram.WPF/18.2.0.59": {
+      "sha512": "p0+FxzJOyuhXCNO+ThfSdWnTIt5qItQk/kB4cCKjC3HaDAf5jQCFvLM75Pw2tx0AYvaGfhEORuF0MdOb+SD1Cg==",
+      "type": "package",
+      "path": "syncfusion.sfdiagram.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfDiagram.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfDiagram.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfDiagram.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfDiagram.WPF.dll",
+        "lib/net40/Syncfusion.SfDiagram.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfDiagram.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfDiagram.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfDiagram.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfDiagram.WPF.dll",
+        "lib/net45/Syncfusion.SfDiagram.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfDiagram.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfDiagram.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfDiagram.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfDiagram.WPF.dll",
+        "lib/net451/Syncfusion.SfDiagram.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfDiagram.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfDiagram.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfDiagram.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfDiagram.WPF.dll",
+        "lib/net46/Syncfusion.SfDiagram.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfDiagram.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfDiagram.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfDiagram.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfDiagram.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfDiagram.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfDiagram.WPF.xml",
+        "syncfusion.sfdiagram.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfdiagram.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfGauge.WPF/18.2.0.59": {
+      "sha512": "alIkvmmvTVrQHvKBUIw0A1VtMwnF4TmtcgMp3/pfrvzZopZGcoBS0bndOS3+uaieTkQFA5lV73hPhYF1QsWXcg==",
+      "type": "package",
+      "path": "syncfusion.sfgauge.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfGauge.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfGauge.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfGauge.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfGauge.WPF.dll",
+        "lib/net40/Syncfusion.SfGauge.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfGauge.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfGauge.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfGauge.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfGauge.WPF.dll",
+        "lib/net45/Syncfusion.SfGauge.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfGauge.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfGauge.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfGauge.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfGauge.WPF.dll",
+        "lib/net451/Syncfusion.SfGauge.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfGauge.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfGauge.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfGauge.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfGauge.WPF.dll",
+        "lib/net46/Syncfusion.SfGauge.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfGauge.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfGauge.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfGauge.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfGauge.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfGauge.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfGauge.WPF.xml",
+        "syncfusion.sfgauge.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfgauge.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfGrid.WPF/18.2.0.59": {
+      "sha512": "mZjcCP1usdC4nfeYgce61sAmGdGJsb226mdQVSSZ0c+HBkzHxMspHPgrfhZusDRqU8p81MpT7YLGJGzHbzlQoQ==",
+      "type": "package",
+      "path": "syncfusion.sfgrid.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfGrid.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfGrid.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfGrid.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfGrid.WPF.dll",
+        "lib/net40/Syncfusion.SfGrid.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfGrid.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfGrid.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfGrid.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfGrid.WPF.dll",
+        "lib/net45/Syncfusion.SfGrid.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfGrid.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfGrid.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfGrid.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfGrid.WPF.dll",
+        "lib/net451/Syncfusion.SfGrid.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfGrid.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfGrid.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfGrid.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfGrid.WPF.dll",
+        "lib/net46/Syncfusion.SfGrid.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfGrid.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfGrid.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfGrid.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfGrid.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfGrid.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfGrid.WPF.xml",
+        "syncfusion.sfgrid.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfgrid.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfGridCommon.WPF/18.2.0.59": {
+      "sha512": "edehW/MlvStFroQhIYAD5Ii/BtMxM3nDgYefjeHCa1G0E3xGWG0VJocmvDWTzkWu/EE40JD4/5A9cZnRLpUESw==",
+      "type": "package",
+      "path": "syncfusion.sfgridcommon.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.SfGridCommon.WPF.dll",
+        "lib/net40/Syncfusion.SfGridCommon.WPF.xml",
+        "lib/net45/Syncfusion.SfGridCommon.WPF.dll",
+        "lib/net45/Syncfusion.SfGridCommon.WPF.xml",
+        "lib/net451/Syncfusion.SfGridCommon.WPF.dll",
+        "lib/net451/Syncfusion.SfGridCommon.WPF.xml",
+        "lib/net46/Syncfusion.SfGridCommon.WPF.dll",
+        "lib/net46/Syncfusion.SfGridCommon.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfGridCommon.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfGridCommon.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfGridCommon.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfGridCommon.WPF.xml",
+        "syncfusion.sfgridcommon.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfgridcommon.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfHeatMap.WPF/18.2.0.59": {
+      "sha512": "dUQWb1J0kVs+i4VfzgEMntnDKNcEFfwaOf5PsuLagxV5B7PjQOEZgZthwSiICeGfLyDm3x9DemsfxFj6Z8odlw==",
+      "type": "package",
+      "path": "syncfusion.sfheatmap.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfHeatMap.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfHeatMap.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfHeatMap.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfHeatMap.WPF.dll",
+        "lib/net40/Syncfusion.SfHeatMap.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfHeatMap.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfHeatMap.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfHeatMap.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfHeatMap.WPF.dll",
+        "lib/net45/Syncfusion.SfHeatMap.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfHeatMap.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfHeatMap.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfHeatMap.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfHeatMap.WPF.dll",
+        "lib/net451/Syncfusion.SfHeatMap.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfHeatMap.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfHeatMap.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfHeatMap.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfHeatMap.WPF.dll",
+        "lib/net46/Syncfusion.SfHeatMap.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfHeatMap.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfHeatMap.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfHeatMap.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfHeatMap.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfHeatMap.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfHeatMap.WPF.xml",
+        "syncfusion.sfheatmap.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfheatmap.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfHubTile.WPF/18.2.0.59": {
+      "sha512": "wt2+4R1uSZRI9vzCWfdxvkHB4E/rocUPwA4qDMX9k7tzivDo3k6UVPt77XLbDwuvQzBnoH2vCWx9DHuU4Ah5Jw==",
+      "type": "package",
+      "path": "syncfusion.sfhubtile.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfHubTile.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfHubTile.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfHubTile.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfHubTile.WPF.dll",
+        "lib/net40/Syncfusion.SfHubTile.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfHubTile.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfHubTile.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfHubTile.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfHubTile.WPF.dll",
+        "lib/net45/Syncfusion.SfHubTile.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfHubTile.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfHubTile.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfHubTile.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfHubTile.WPF.dll",
+        "lib/net451/Syncfusion.SfHubTile.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfHubTile.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfHubTile.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfHubTile.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfHubTile.WPF.dll",
+        "lib/net46/Syncfusion.SfHubTile.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfHubTile.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfHubTile.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfHubTile.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfHubTile.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfHubTile.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfHubTile.WPF.xml",
+        "syncfusion.sfhubtile.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfhubtile.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfInput.WPF/18.2.0.59": {
+      "sha512": "mZUEkgosisa5SK5X3JalRCHxjojtptolM6d7+EtgDO2uO7hjlszHYsNHH7T70hgfBn+Lx5k5rNPSvZ1r7SNooQ==",
+      "type": "package",
+      "path": "syncfusion.sfinput.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfInput.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfInput.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfInput.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfInput.WPF.dll",
+        "lib/net40/Syncfusion.SfInput.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfInput.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfInput.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfInput.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfInput.WPF.dll",
+        "lib/net45/Syncfusion.SfInput.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfInput.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfInput.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfInput.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfInput.WPF.dll",
+        "lib/net451/Syncfusion.SfInput.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfInput.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfInput.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfInput.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfInput.WPF.dll",
+        "lib/net46/Syncfusion.SfInput.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfInput.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfInput.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfInput.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfInput.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfInput.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfInput.WPF.xml",
+        "syncfusion.sfinput.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfinput.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfKanban.WPF/18.2.0.59": {
+      "sha512": "M+SR2oymytVKb617gyBBguHBhmgi/gkCvfXp+joaJP+lgWpUzAWVq1M9fF0UADM4qr1OMV+gqda6vpkE0SQY1A==",
+      "type": "package",
+      "path": "syncfusion.sfkanban.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfKanban.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfKanban.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfKanban.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfKanban.WPF.dll",
+        "lib/net40/Syncfusion.SfKanban.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfKanban.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfKanban.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfKanban.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfKanban.WPF.dll",
+        "lib/net45/Syncfusion.SfKanban.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfKanban.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfKanban.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfKanban.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfKanban.WPF.dll",
+        "lib/net451/Syncfusion.SfKanban.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfKanban.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfKanban.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfKanban.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfKanban.WPF.dll",
+        "lib/net46/Syncfusion.SfKanban.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfKanban.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfKanban.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfKanban.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfKanban.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfKanban.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfKanban.WPF.xml",
+        "syncfusion.sfkanban.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfkanban.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfMaps.WPF/18.2.0.59": {
+      "sha512": "Zcuh8gyh/V1DChE/xg/kWZSVNp+MUZ+iviujnDfxtHOIOvuEWsx6uZvbZcY22vlXm78fLGB99lr7eI4EwJB4gQ==",
+      "type": "package",
+      "path": "syncfusion.sfmaps.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfMaps.WPF.dll",
+        "lib/net40/Syncfusion.SfMaps.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfMaps.WPF.dll",
+        "lib/net45/Syncfusion.SfMaps.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfMaps.WPF.dll",
+        "lib/net451/Syncfusion.SfMaps.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfMaps.WPF.dll",
+        "lib/net46/Syncfusion.SfMaps.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfMaps.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfMaps.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfMaps.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfMaps.WPF.xml",
+        "syncfusion.sfmaps.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfmaps.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfNavigationDrawer.WPF/18.2.0.59": {
+      "sha512": "Ify34wNK2r248+NNmC1cd+IFhv8VlSKy+5xfPHjSLNtNSbkKK9/snUhV89C/bTIeM7IJXQlKKUwC2H4LIiD7sw==",
+      "type": "package",
+      "path": "syncfusion.sfnavigationdrawer.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfNavigationDrawer.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfNavigationDrawer.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfNavigationDrawer.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfNavigationDrawer.WPF.dll",
+        "lib/net40/Syncfusion.SfNavigationDrawer.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfNavigationDrawer.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfNavigationDrawer.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfNavigationDrawer.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfNavigationDrawer.WPF.dll",
+        "lib/net45/Syncfusion.SfNavigationDrawer.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfNavigationDrawer.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfNavigationDrawer.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfNavigationDrawer.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfNavigationDrawer.WPF.dll",
+        "lib/net451/Syncfusion.SfNavigationDrawer.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfNavigationDrawer.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfNavigationDrawer.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfNavigationDrawer.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfNavigationDrawer.WPF.dll",
+        "lib/net46/Syncfusion.SfNavigationDrawer.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfNavigationDrawer.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfNavigationDrawer.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfNavigationDrawer.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfNavigationDrawer.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfNavigationDrawer.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfNavigationDrawer.WPF.xml",
+        "syncfusion.sfnavigationdrawer.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfnavigationdrawer.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfProgressBar.WPF/18.2.0.59": {
+      "sha512": "pt6X442xLCu9YQi99SjcoT+rj/HJTdhypUwPkHyZbC7KX9G74mhsNRQjLuil6n7r7FQiLPJAGXKX1V/iYIJ2+g==",
+      "type": "package",
+      "path": "syncfusion.sfprogressbar.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfProgressBar.WPF.DesignTools.dll",
+        "lib/net40/Syncfusion.SfProgressBar.WPF.dll",
+        "lib/net40/Syncfusion.SfProgressBar.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfProgressBar.WPF.DesignTools.dll",
+        "lib/net45/Syncfusion.SfProgressBar.WPF.dll",
+        "lib/net45/Syncfusion.SfProgressBar.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfProgressBar.WPF.DesignTools.dll",
+        "lib/net451/Syncfusion.SfProgressBar.WPF.dll",
+        "lib/net451/Syncfusion.SfProgressBar.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfProgressBar.WPF.DesignTools.dll",
+        "lib/net46/Syncfusion.SfProgressBar.WPF.dll",
+        "lib/net46/Syncfusion.SfProgressBar.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfProgressBar.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfProgressBar.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfProgressBar.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfProgressBar.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfProgressBar.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfProgressBar.WPF.xml",
+        "syncfusion.sfprogressbar.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfprogressbar.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfRadialMenu.WPF/18.2.0.59": {
+      "sha512": "J7P2qo0R/7yyzDsN6pk8AuPofR3ZqbvvZDunvLqdQS8wlqxf4TodSeyM1IujPjSWI0ai28Vba2G9bGjEkOnAEQ==",
+      "type": "package",
+      "path": "syncfusion.sfradialmenu.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net40/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net45/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net451/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net46/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfRadialMenu.WPF.xml",
+        "syncfusion.sfradialmenu.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfradialmenu.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfRichTextBoxAdv.WPF/18.2.0.59": {
+      "sha512": "/eNZ0x46YMUrmuMAlrq6zNlurkRiMKtj684niWcJZIhXvRZYR1sV3E2jI1fCyJjKzs7Vk2NHmv+yVLlsDyHaUw==",
+      "type": "package",
+      "path": "syncfusion.sfrichtextboxadv.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.SfRichTextBoxAdv.WPF.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.SfRichTextBoxAdv.WPF.VisualStudio.Design.dll",
+        "lib/net35/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/net35/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "lib/net40/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfRichTextBoxAdv.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfRichTextBoxAdv.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/net40/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfRichTextBoxAdv.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfRichTextBoxAdv.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/net45/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfRichTextBoxAdv.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfRichTextBoxAdv.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/net451/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfRichTextBoxAdv.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfRichTextBoxAdv.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/net46/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfRichTextBoxAdv.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfRichTextBoxAdv.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfRichTextBoxAdv.WPF.xml",
+        "syncfusion.sfrichtextboxadv.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfrichtextboxadv.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfRichTextRibbon.WPF/18.2.0.59": {
+      "sha512": "kf4NTzBEy7onFErjsYGZHtpscePdb0UUNLaivpkHG9IySx0EktKmM04WdU2eEwB8PaKGHb+szvBg0ip4bsYIFA==",
+      "type": "package",
+      "path": "syncfusion.sfrichtextribbon.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.SfRichTextRibbon.WPF.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.SfRichTextRibbon.WPF.VisualStudio.Design.dll",
+        "lib/net35/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/net35/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "lib/net40/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfRichTextRibbon.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfRichTextRibbon.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/net40/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfRichTextRibbon.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfRichTextRibbon.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/net45/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfRichTextRibbon.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfRichTextRibbon.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/net451/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfRichTextRibbon.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfRichTextRibbon.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/net46/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfRichTextRibbon.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfRichTextRibbon.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfRichTextRibbon.WPF.xml",
+        "syncfusion.sfrichtextribbon.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfrichtextribbon.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfSchedule.WPF/18.2.0.59": {
+      "sha512": "/+jF9+ILRgmwEI0MSOmjO8BpQ9R+LmEIgfTsgxDzk7NoiLWBvr0mVzHTy1Jzk8fgKkd5KCoS6/ahvK4ByAFBzg==",
+      "type": "package",
+      "path": "syncfusion.sfschedule.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfSchedule.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfSchedule.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfSchedule.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfSchedule.WPF.dll",
+        "lib/net40/Syncfusion.SfSchedule.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfSchedule.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfSchedule.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfSchedule.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfSchedule.WPF.dll",
+        "lib/net45/Syncfusion.SfSchedule.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfSchedule.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfSchedule.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfSchedule.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfSchedule.WPF.dll",
+        "lib/net451/Syncfusion.SfSchedule.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfSchedule.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfSchedule.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfSchedule.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfSchedule.WPF.dll",
+        "lib/net46/Syncfusion.SfSchedule.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfSchedule.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSchedule.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSchedule.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfSchedule.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSchedule.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSchedule.WPF.xml",
+        "syncfusion.sfschedule.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfschedule.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfShared.WPF/18.2.0.59": {
+      "sha512": "HAB3qR2G+IBH8IuGibLAo/4nVU+HjRxI6d22Vmlovb6JNFuksht4OyCy8Hj7X+6uZreZo9hCeOO0CyUlh3r9Qg==",
+      "type": "package",
+      "path": "syncfusion.sfshared.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfShared.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfShared.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfShared.WPF.dll",
+        "lib/net40/Syncfusion.SfShared.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfShared.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfShared.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfShared.WPF.dll",
+        "lib/net45/Syncfusion.SfShared.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfShared.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfShared.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfShared.WPF.dll",
+        "lib/net451/Syncfusion.SfShared.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfShared.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfShared.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfShared.WPF.dll",
+        "lib/net46/Syncfusion.SfShared.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfShared.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfShared.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfShared.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfShared.WPF.xml",
+        "syncfusion.sfshared.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfshared.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfSkinManager.WPF/18.2.0.59": {
+      "sha512": "b2fQMI3MgNaKz7eK6LL4TB3Y0kc0ioUmVf+pymlXQ4DRaDihFS9eWRSOzPt3lNFwvQE0OUYINOYuW+lmljI9gQ==",
+      "type": "package",
+      "path": "syncfusion.sfskinmanager.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net40/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net45/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net45/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net451/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net451/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/net46/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/net46/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSkinManager.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfSkinManager.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSkinManager.WPF.xml",
+        "syncfusion.sfskinmanager.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfskinmanager.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfSmithChart.WPF/18.2.0.59": {
+      "sha512": "blbtJeL1xpwJyc1+qbctya9Nhms/9bkglpFwT85iHFOljreENfZOY0xUNpqkaUBqtetYD4ctN9c5fKnRW+Zarw==",
+      "type": "package",
+      "path": "syncfusion.sfsmithchart.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfSmithChart.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfSmithChart.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfSmithChart.WPF.dll",
+        "lib/net40/Syncfusion.SfSmithChart.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfSmithChart.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfSmithChart.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfSmithChart.WPF.dll",
+        "lib/net45/Syncfusion.SfSmithChart.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfSmithChart.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfSmithChart.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfSmithChart.WPF.dll",
+        "lib/net451/Syncfusion.SfSmithChart.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfSmithChart.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfSmithChart.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfSmithChart.WPF.dll",
+        "lib/net46/Syncfusion.SfSmithChart.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfSmithChart.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSmithChart.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfSmithChart.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSmithChart.WPF.xml",
+        "syncfusion.sfsmithchart.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfsmithchart.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfSpreadsheet.WPF/18.2.0.59": {
+      "sha512": "cbKWcXEWJsBMdqADSRzeb+6NgKk9h8pbckNL0eSB64ufbCkusX3GFwRq+QFZiJbcPz4v6s05BdeDEvL/yGhZXg==",
+      "type": "package",
+      "path": "syncfusion.sfspreadsheet.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfSpreadsheet.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfSpreadsheet.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfSpreadsheet.WPF.dll",
+        "lib/net40/Syncfusion.SfSpreadsheet.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfSpreadsheet.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfSpreadsheet.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfSpreadsheet.WPF.dll",
+        "lib/net45/Syncfusion.SfSpreadsheet.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfSpreadsheet.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfSpreadsheet.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfSpreadsheet.WPF.dll",
+        "lib/net451/Syncfusion.SfSpreadsheet.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfSpreadsheet.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfSpreadsheet.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfSpreadsheet.WPF.dll",
+        "lib/net46/Syncfusion.SfSpreadsheet.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfSpreadsheet.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSpreadsheet.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfSpreadsheet.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfSpreadsheet.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSpreadsheet.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfSpreadsheet.WPF.xml",
+        "syncfusion.sfspreadsheet.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sfspreadsheet.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfTreeMap.WPF/18.2.0.59": {
+      "sha512": "EflU4NPULGd07vTx9+tOz0n8vBqpJOBcDwfwP4M6YviuLNCIesx8Zuj5iTe2/xlP6PUSr3QryulwudrVByUCuA==",
+      "type": "package",
+      "path": "syncfusion.sftreemap.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.SfTreeMap.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfTreeMap.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfTreeMap.WPF.dll",
+        "lib/net40/Syncfusion.SfTreeMap.WPF.xml",
+        "lib/net45/Design/Syncfusion.SfTreeMap.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfTreeMap.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfTreeMap.WPF.dll",
+        "lib/net45/Syncfusion.SfTreeMap.WPF.xml",
+        "lib/net451/Design/Syncfusion.SfTreeMap.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfTreeMap.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfTreeMap.WPF.dll",
+        "lib/net451/Syncfusion.SfTreeMap.WPF.xml",
+        "lib/net46/Design/Syncfusion.SfTreeMap.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfTreeMap.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfTreeMap.WPF.dll",
+        "lib/net46/Syncfusion.SfTreeMap.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.SfTreeMap.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfTreeMap.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.SfTreeMap.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfTreeMap.WPF.xml",
+        "syncfusion.sftreemap.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sftreemap.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfTreeNavigator.WPF/18.2.0.59": {
+      "sha512": "9stYfKVY323ZsPJgI4iGdH0dj3vnHYPm5LJRW80oST60GFlLYbySBO87EdNbkI5ahscV8bv7/xz4IHeEuUJq9Q==",
+      "type": "package",
+      "path": "syncfusion.sftreenavigator.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfTreeNavigator.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfTreeNavigator.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfTreeNavigator.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfTreeNavigator.WPF.dll",
+        "lib/net40/Syncfusion.SfTreeNavigator.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfTreeNavigator.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfTreeNavigator.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfTreeNavigator.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfTreeNavigator.WPF.dll",
+        "lib/net45/Syncfusion.SfTreeNavigator.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfTreeNavigator.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfTreeNavigator.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfTreeNavigator.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfTreeNavigator.WPF.dll",
+        "lib/net451/Syncfusion.SfTreeNavigator.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfTreeNavigator.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfTreeNavigator.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfTreeNavigator.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfTreeNavigator.WPF.dll",
+        "lib/net46/Syncfusion.SfTreeNavigator.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfTreeNavigator.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfTreeNavigator.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfTreeNavigator.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.SfTreeNavigator.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfTreeNavigator.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.SfTreeNavigator.WPF.xml",
+        "syncfusion.sftreenavigator.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.sftreenavigator.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.Base/18.2.0.59": {
+      "sha512": "uVHn3O0rW0vljTZlKek3geumdpkGkHHTyC6J7b2279wlOnZpNfgGao/UFe2H5Qj26HKbObrAtMz4BBKsOYSEzw==",
+      "type": "package",
+      "path": "syncfusion.shared.base/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.Shared.Base.dll",
+        "lib/net20/Syncfusion.Shared.Base.xml",
+        "lib/net35/Syncfusion.Shared.Base.dll",
+        "lib/net35/Syncfusion.Shared.Base.xml",
+        "lib/net40/Syncfusion.Shared.Base.dll",
+        "lib/net40/Syncfusion.Shared.Base.xml",
+        "lib/net45/Syncfusion.Shared.Base.dll",
+        "lib/net45/Syncfusion.Shared.Base.xml",
+        "lib/net451/Syncfusion.Shared.Base.dll",
+        "lib/net451/Syncfusion.Shared.Base.xml",
+        "lib/net46/Syncfusion.Shared.Base.dll",
+        "lib/net46/Syncfusion.Shared.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.Shared.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.Shared.Base.xml",
+        "syncfusion.shared.base.18.2.0.59.nupkg.sha512",
+        "syncfusion.shared.base.nuspec"
+      ]
+    },
+    "Syncfusion.Shared.MVVM.WPF/18.2.0.59": {
+      "sha512": "ly8sKP99NwexA65S4bEaosPBaqnQNUeCAizJN++hzXCgMPKONink0i7DUcpH3Z8ek+WA+DV1Px6/tnbDDy64Jg==",
+      "type": "package",
+      "path": "syncfusion.shared.mvvm.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/net35/Syncfusion.Shared.MVVM.WPF.xml",
+        "lib/net40/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/net40/Syncfusion.Shared.MVVM.WPF.xml",
+        "lib/net45/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/net45/Syncfusion.Shared.MVVM.WPF.xml",
+        "lib/net451/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/net451/Syncfusion.Shared.MVVM.WPF.xml",
+        "lib/net46/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/net46/Syncfusion.Shared.MVVM.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.MVVM.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Shared.MVVM.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Shared.MVVM.WPF.xml",
+        "syncfusion.shared.mvvm.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.shared.mvvm.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Shared.WPF/18.2.0.59": {
+      "sha512": "BrPJzE0C6C6RXc/odtoEIeie5ns5E/6vI/QBBO3DnHR6R6m/gQXRQ8nSugmX55xU2D0DdjlqqH3KWPHblyX2Gg==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Shared.WPF.dll",
+        "lib/net35/Syncfusion.Shared.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Shared.WPF.dll",
+        "lib/net40/Syncfusion.Shared.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Shared.WPF.dll",
+        "lib/net45/Syncfusion.Shared.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Shared.WPF.dll",
+        "lib/net451/Syncfusion.Shared.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Shared.WPF.dll",
+        "lib/net46/Syncfusion.Shared.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.Shared.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Shared.WPF.xml",
+        "syncfusion.shared.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.shared.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Themes.Blend.WPF/18.2.0.59": {
+      "sha512": "pIBtQFZI+6MuE/qmRD5pR1IRLqjNq3eEoD9NsMEydr4R0UY6+LCvJM6sZWTFYcCoUT+VXUfUnZXG/olK4eGN+A==",
+      "type": "package",
+      "path": "syncfusion.themes.blend.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Blend.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Blend.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Blend.WPF.xml",
+        "syncfusion.themes.blend.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.blend.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Lime.WPF/18.2.0.59": {
+      "sha512": "ZphLU5GA7sIXO/2Gs5FCAXvf1gHbkbXbqVyoGNWXxVC/Eflxa+UXthRzcYqROb54TeIAASs2YNRHGrsGhig9EQ==",
+      "type": "package",
+      "path": "syncfusion.themes.lime.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Lime.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Lime.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Lime.WPF.xml",
+        "syncfusion.themes.lime.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.lime.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Metro.WPF/18.2.0.59": {
+      "sha512": "xS+/z8PklKZ/jJ+SRNfPIoC5tF3EIOtVbwWTMaKEUe1vRuitvNw5bChrNR2mEEiSTe6ROMeeFrxDPWwUsSVYXQ==",
+      "type": "package",
+      "path": "syncfusion.themes.metro.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Metro.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Metro.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Metro.WPF.xml",
+        "syncfusion.themes.metro.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.metro.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2010Black.WPF/18.2.0.59": {
+      "sha512": "xr3ekIekFleiAhRrXveJzUagY/EINcY7E2CstJP5hPHASQ89UxChPaF86zkF3P5GY3mAUhRNSveUpxOg8R31qA==",
+      "type": "package",
+      "path": "syncfusion.themes.office2010black.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Black.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Black.WPF.xml",
+        "syncfusion.themes.office2010black.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2010black.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2010Blue.WPF/18.2.0.59": {
+      "sha512": "9NlHgDRya6btB+4Mdxls6LNd4Tc6EuaPfZBwmTILC70QuNLD852xJxED0biubQ/tiI6lo42P9sxU2oYKQA/wcw==",
+      "type": "package",
+      "path": "syncfusion.themes.office2010blue.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Blue.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Blue.WPF.xml",
+        "syncfusion.themes.office2010blue.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2010blue.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2010Silver.WPF/18.2.0.59": {
+      "sha512": "DeWIjCVt78umVvWIuYkPmXS2gRPZ4nbpCLWhr7vUyff09TTtlulfBxlG5gWMdfFDDgVfxUeTESIrmvw8p0mGQw==",
+      "type": "package",
+      "path": "syncfusion.themes.office2010silver.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Silver.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2010Silver.WPF.xml",
+        "syncfusion.themes.office2010silver.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2010silver.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2013DarkGray.WPF/18.2.0.59": {
+      "sha512": "lBpnsEnuyn9AMn94uc7dYsj2+0R1osVLpm+iLrKvWsFnL/O/H+mKL4o9oL+/VCGSb8CdwWUqA8NbaEWyP0txgQ==",
+      "type": "package",
+      "path": "syncfusion.themes.office2013darkgray.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013DarkGray.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013DarkGray.WPF.xml",
+        "syncfusion.themes.office2013darkgray.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2013darkgray.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2013LightGray.WPF/18.2.0.59": {
+      "sha512": "2ygfnCgbNgUkLfra47Lz/jy4Pes3Ojcz9qxaWSmwPJeyH+cdv1JBLHbeWr3fWeXMNsdFGofc8H1s1dyrkYE40w==",
+      "type": "package",
+      "path": "syncfusion.themes.office2013lightgray.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013LightGray.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013LightGray.WPF.xml",
+        "syncfusion.themes.office2013lightgray.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2013lightgray.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2013White.WPF/18.2.0.59": {
+      "sha512": "kXT+2FX7sK/TuDAB9vywMJLVjCXtKAL5ILLEg4cmuwoKgeS6ONi4bNfwcTutMq0jW/4BkPJn3ia9I7MmhLkU/w==",
+      "type": "package",
+      "path": "syncfusion.themes.office2013white.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2013White.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013White.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2013White.WPF.xml",
+        "syncfusion.themes.office2013white.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2013white.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2016Colorful.WPF/18.2.0.59": {
+      "sha512": "+CtvDfUyyjcP+MKF7i/B84Bnhr2KnbipEDjbBrt2Vl2y4EAZ3qT0eZUhem6IeIO92PIb3ji3mZCqkrU66sxs8Q==",
+      "type": "package",
+      "path": "syncfusion.themes.office2016colorful.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016Colorful.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016Colorful.WPF.xml",
+        "syncfusion.themes.office2016colorful.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2016colorful.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2016DarkGray.WPF/18.2.0.59": {
+      "sha512": "RFhYEpkd3yDuTadkqvz+xGqqIL8mpqteE6+i25VRVQ7+tDKrqb0/8MpLL1+SNnqpsKhSZmSOhtr7KJ+PBCNC/w==",
+      "type": "package",
+      "path": "syncfusion.themes.office2016darkgray.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016DarkGray.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016DarkGray.WPF.xml",
+        "syncfusion.themes.office2016darkgray.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2016darkgray.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office2016White.WPF/18.2.0.59": {
+      "sha512": "TATHcvnDmIBF1GEC2PZcFHhMzQFQrt504gG4rZhUeeN0mRGSBnmWlQawTUBuS65rlxjVKzDt886wq5+HFBBIxw==",
+      "type": "package",
+      "path": "syncfusion.themes.office2016white.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office2016White.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016White.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office2016White.WPF.xml",
+        "syncfusion.themes.office2016white.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office2016white.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Office365.WPF/18.2.0.59": {
+      "sha512": "AXn2JSGLJC1EN/oflP+YUd9+2PyvhqQFka1wteCDKYt4/hMbM25xyBBoL0BhGlR8EkBkzExyvy56NY7IxHy15Q==",
+      "type": "package",
+      "path": "syncfusion.themes.office365.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Office365.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office365.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Office365.WPF.xml",
+        "syncfusion.themes.office365.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.office365.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.Saffron.WPF/18.2.0.59": {
+      "sha512": "pz/hjpZpEWjFdnZCZn9gysPyPkU3zWHWwEjJCOazFn/WYZJR82dG3ulSb09uEEP3s7E8/XuyQr4Jkd9Dn/yRFQ==",
+      "type": "package",
+      "path": "syncfusion.themes.saffron.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net40/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/net45/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net45/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/net451/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net451/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/net46/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/net46/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.Saffron.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Saffron.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.Saffron.WPF.xml",
+        "syncfusion.themes.saffron.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.saffron.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.VisualStudio2013.WPF/18.2.0.59": {
+      "sha512": "aAL6X5fujgTgnuPnIkAbrdtrYl+b3izg9miAqPdvon0lhqu0RgfCu0NkWcW9iWYcq24/CB8syB/YtihuuL4PWw==",
+      "type": "package",
+      "path": "syncfusion.themes.visualstudio2013.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net40/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/net45/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net45/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/net451/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net451/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/net46/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/net46/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2013.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2013.WPF.xml",
+        "syncfusion.themes.visualstudio2013.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.visualstudio2013.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Themes.VisualStudio2015.WPF/18.2.0.59": {
+      "sha512": "gjD2630MfjFdngYnW0uQugeM6lTz9BAp7oyT2TsJIyPjkME7P+xNGwSjmE0WGaRwESxQpxc8uXRgdmqvH5eCBQ==",
+      "type": "package",
+      "path": "syncfusion.themes.visualstudio2015.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net40/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/net45/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net45/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/net451/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net451/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/net46/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/net46/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2015.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Themes.VisualStudio2015.WPF.xml",
+        "syncfusion.themes.visualstudio2015.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.themes.visualstudio2015.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Tools.WPF/18.2.0.59": {
+      "sha512": "wyzK5L8+GiwoXfbY5hMei619BrBT1ZgdTYSXrdn6nfrc7Y4tz/H5rNlqiMF/5UWgxbx64dqD4JlEUS2CyaTuCA==",
+      "type": "package",
+      "path": "syncfusion.tools.wpf/18.2.0.59",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Tools.WPF.dll",
+        "lib/net35/Syncfusion.Tools.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Tools.WPF.dll",
+        "lib/net40/Syncfusion.Tools.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Tools.WPF.dll",
+        "lib/net45/Syncfusion.Tools.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Tools.WPF.dll",
+        "lib/net451/Syncfusion.Tools.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Tools.WPF.dll",
+        "lib/net46/Syncfusion.Tools.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.WPF.xml",
+        "lib/netcoreapp5.0/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/netcoreapp5.0/Syncfusion.Tools.WPF.dll",
+        "lib/netcoreapp5.0/Syncfusion.Tools.WPF.xml",
+        "syncfusion.tools.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.tools.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.XlsIO.Wpf/18.2.0.59": {
+      "sha512": "PSq6S+Q6PUDmXnH7D70jZbDPIzlTmjOom+9xxMJdowyiggcEmFCSVkK0+n0eoC9u5dsgp3pKLb5VVaDdwMMjdg==",
+      "type": "package",
+      "path": "syncfusion.xlsio.wpf/18.2.0.59",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.XlsIO.Base.dll",
+        "lib/net35/Syncfusion.XlsIO.Base.xml",
+        "lib/net40/Syncfusion.XlsIO.Base.dll",
+        "lib/net40/Syncfusion.XlsIO.Base.xml",
+        "lib/net45/Syncfusion.XlsIO.Base.dll",
+        "lib/net45/Syncfusion.XlsIO.Base.xml",
+        "lib/net451/Syncfusion.XlsIO.Base.dll",
+        "lib/net451/Syncfusion.XlsIO.Base.xml",
+        "lib/net46/Syncfusion.XlsIO.Base.dll",
+        "lib/net46/Syncfusion.XlsIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.xml",
+        "lib/netcoreapp5.0/Syncfusion.XlsIO.Base.dll",
+        "lib/netcoreapp5.0/Syncfusion.XlsIO.Base.xml",
+        "syncfusion.xlsio.wpf.18.2.0.59.nupkg.sha512",
+        "syncfusion.xlsio.wpf.nuspec"
+      ]
+    },
+    "System.Data.SqlClient/4.8.2": {
+      "sha512": "80vGtW6uLB4AkyrdVuKTXYUyuXDPAsSKbTVfvjndZaRAYxzFzWhJbvUfeAKrN+128ycWZjLIAl61dFUwWHOOTw==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.xml",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.xml",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.8.2.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.110": {
+      "sha512": "bFx7Jnn/AlfVobpTnKreroh8jItM4eyLz/ZQRhzxYHZ71gqlGgU8y2nSNFnqVaSNu2bAWBf6m3yNyvp9uIhOoA==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.110",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/System.Data.SQLite.Core.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.dll.config",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.dll.config",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.dll.config",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.dll.config",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.dll.config",
+        "lib/net46/System.Data.SQLite.xml",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.config",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll",
+        "system.data.sqlite.core.1.0.110.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.7.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.7.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "TD.Data/1.0.0": {
+      "type": "project",
+      "path": "../TD.Data/TD.Data.csproj",
+      "msbuildProject": "../TD.Data/TD.Data.csproj"
+    },
+    "TD.Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/TD.Model.csproj",
+      "msbuildProject": "../Model/TD.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MaterialDesignThemes >= 3.2.1-ci1990",
+      "Syncfusion.Calculate.Base >= 18.2.0.59",
+      "Syncfusion.DocIO.WPF >= 18.2.0.59",
+      "Syncfusion.Edit.WPF >= 18.2.0.59",
+      "Syncfusion.Gantt.WPF >= 18.2.0.59",
+      "Syncfusion.Grid.WPF >= 18.2.0.59",
+      "Syncfusion.Pdf.WPF >= 18.2.0.59",
+      "Syncfusion.PdfViewer.WPF >= 18.2.0.59",
+      "Syncfusion.Presentation.WPF >= 18.2.0.59",
+      "Syncfusion.PropertyGrid.WPF >= 18.2.0.59",
+      "Syncfusion.SfAccordion.WPF >= 18.2.0.59",
+      "Syncfusion.SfBarcode.WPF >= 18.2.0.59",
+      "Syncfusion.SfBulletGraph.WPF >= 18.2.0.59",
+      "Syncfusion.SfBusyIndicator.WPF >= 18.2.0.59",
+      "Syncfusion.SfChart.WPF >= 18.2.0.59",
+      "Syncfusion.SfChromelessWindow.WPF >= 18.2.0.59",
+      "Syncfusion.SfColorPalette.WPF >= 18.2.0.59",
+      "Syncfusion.SfDiagram.WPF >= 18.2.0.59",
+      "Syncfusion.SfGauge.WPF >= 18.2.0.59",
+      "Syncfusion.SfGrid.WPF >= 18.2.0.59",
+      "Syncfusion.SfHeatMap.WPF >= 18.2.0.59",
+      "Syncfusion.SfHubTile.WPF >= 18.2.0.59",
+      "Syncfusion.SfInput.WPF >= 18.2.0.59",
+      "Syncfusion.SfKanban.WPF >= 18.2.0.59",
+      "Syncfusion.SfMaps.WPF >= 18.2.0.59",
+      "Syncfusion.SfNavigationDrawer.WPF >= 18.2.0.59",
+      "Syncfusion.SfProgressBar.WPF >= 18.2.0.59",
+      "Syncfusion.SfRadialMenu.WPF >= 18.2.0.59",
+      "Syncfusion.SfRichTextBoxAdv.WPF >= 18.2.0.59",
+      "Syncfusion.SfRichTextRibbon.WPF >= 18.2.0.59",
+      "Syncfusion.SfSchedule.WPF >= 18.2.0.59",
+      "Syncfusion.SfSkinManager.Wpf >= 18.2.0.59",
+      "Syncfusion.SfSmithChart.WPF >= 18.2.0.59",
+      "Syncfusion.SfSpreadsheet.WPF >= 18.2.0.59",
+      "Syncfusion.SfTreeMap.WPF >= 18.2.0.59",
+      "Syncfusion.SfTreeNavigator.WPF >= 18.2.0.59",
+      "Syncfusion.Shared.Base >= 18.2.0.59",
+      "Syncfusion.Shared.MVVM.WPF >= 18.2.0.59",
+      "Syncfusion.Shared.WPF >= 18.2.0.59",
+      "Syncfusion.Themes.Blend.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Lime.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Metro.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2010Black.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2010Blue.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2010Silver.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2013DarkGray.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2013LightGray.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2013White.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2016Colorful.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2016DarkGray.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office2016White.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Office365.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.Saffron.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.VisualStudio2013.Wpf >= 18.2.0.59",
+      "Syncfusion.Themes.VisualStudio2015.Wpf >= 18.2.0.59",
+      "Syncfusion.Tools.WPF >= 18.2.0.59",
+      "Syncfusion.XlsIO.WPF >= 18.2.0.59",
+      "TD.Data >= 1.0.0",
+      "TD.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lenovo\\csharpdirectory\\TD.ToDoTasksDate\\TD.ToDoTasksDate.csproj",
+      "projectName": "TD.ToDoTasksDate",
+      "projectPath": "C:\\Users\\lenovo\\csharpdirectory\\TD.ToDoTasksDate\\TD.ToDoTasksDate.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lenovo\\csharpdirectory\\TD.ToDoTasksDate\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\lenovo\\csharpdirectory\\Model\\TD.Model.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\csharpdirectory\\Model\\TD.Model.csproj"
+            },
+            "C:\\Users\\lenovo\\csharpdirectory\\TD.Data\\TD.Data.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\csharpdirectory\\TD.Data\\TD.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[3.2.1-ci1990, )"
+          },
+          "Syncfusion.Calculate.Base": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.DocIO.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Edit.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Gantt.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Grid.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Pdf.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.PdfViewer.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Presentation.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.PropertyGrid.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfAccordion.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfBarcode.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfBulletGraph.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfBusyIndicator.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfChart.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfChromelessWindow.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfColorPalette.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfDiagram.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfGauge.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfGrid.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfHeatMap.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfHubTile.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfInput.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfKanban.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfMaps.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfNavigationDrawer.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfProgressBar.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfRadialMenu.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfRichTextBoxAdv.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfRichTextRibbon.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfSchedule.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfSkinManager.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfSmithChart.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfSpreadsheet.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfTreeMap.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.SfTreeNavigator.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Shared.Base": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Shared.MVVM.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Shared.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Blend.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Lime.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Metro.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2010Black.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2010Blue.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2010Silver.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2013DarkGray.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2013LightGray.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2013White.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2016Colorful.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2016DarkGray.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office2016White.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Office365.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.Saffron.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.VisualStudio2013.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Themes.VisualStudio2015.Wpf": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.Tools.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          },
+          "Syncfusion.XlsIO.WPF": {
+            "target": "Package",
+            "version": "[18.2.0.59, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\bin\Debug\netcoreapp3.1\TD.Data.Interface.deps.json
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\bin\Debug\netcoreapp3.1\TD.Data.Interface.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\bin\Debug\netcoreapp3.1\TD.Data.Interface.pdb
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\bin\Debug\netcoreapp3.1\TD.Model.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\bin\Debug\netcoreapp3.1\TD.Model.pdb
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.csprojAssemblyReference.cache
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.AssemblyInfoInputs.cache
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.AssemblyInfo.cs
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.csproj.CopyComplete
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.dll
+C:\Users\lenovo\csharpdirectory\TD.Data.Interface\obj\Debug\netcoreapp3.1\TD.Data.Interface.pdb

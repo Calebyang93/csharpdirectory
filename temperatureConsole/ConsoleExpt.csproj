@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APIClient\APIHost.csproj" />
+    <ProjectReference Include="..\Model\TD.Model.csproj" />
+    <ProjectReference Include="..\TD.Data.Interface\TD.Data.Interface.csproj" />
+    <ProjectReference Include="..\TD.Data.Mock\TD.Data.Mock.csproj" />
+    <ProjectReference Include="..\TD.Data\TD.Data.csproj" />
+    <ProjectReference Include="..\temperatureModel\Model2.csproj" />
+  </ItemGroup>
+
+</Project>

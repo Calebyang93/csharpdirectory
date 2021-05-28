@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MaterialDesignThemes" Version="3.2.1-ci1990" />
+        <PackageReference Include="Syncfusion.Grid.WPF" Version="18.2.0.59" />
+        <PackageReference Include="Syncfusion.SfGrid.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfBulletGraph.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfDiagram.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfMaps.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Shared.Base" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfSpreadsheet.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfProgressBar.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.DocIO.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Pdf.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Presentation.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.XlsIO.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Gantt.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfGauge.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Shared.MVVM.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfSchedule.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfInput.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfColorPalette.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfKanban.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfRadialMenu.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfRichTextBoxAdv.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfRichTextRibbon.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfNavigationDrawer.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfTreeNavigator.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfAccordion.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfChromelessWindow.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfBusyIndicator.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfHubTile.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfBarcode.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Calculate.Base" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.PropertyGrid.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Edit.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfTreeMap.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfHeatMap.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfSmithChart.WPF" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Metro.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.SfSkinManager.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Blend.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office365.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Saffron.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Lime.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.VisualStudio2015.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.VisualStudio2013.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2016White.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2016DarkGray.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2016Colorful.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2013White.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2013LightGray.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2013DarkGray.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Blue.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Black.Wpf" Version="18.2.0.59" />
+    <PackageReference Include="Syncfusion.Themes.Office2010Silver.Wpf" Version="18.2.0.59" />
+</ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Model\TD.Model.csproj" />
+      <ProjectReference Include="..\TD.Data\TD.Data.csproj" />
+    </ItemGroup>
+</Project>

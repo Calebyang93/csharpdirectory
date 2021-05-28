@@ -16,3 +16,5 @@ C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTests\obj\Debug\Dev.Console
 C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTests\obj\Debug\Dev.ConsoleTests.csproj.CopyComplete
 C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTests\obj\Debug\Dev.ConsoleTests.exe
 C:\Users\cyhc9\Documents\C#\CalebProjects\Dev.ConsoleTests\obj\Debug\Dev.ConsoleTests.pdb
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTests\obj\Debug\Dev.ConsoleTests.exe
+C:\Users\lenovo\csharpdirectory\Dev.ConsoleTests\obj\Debug\Dev.ConsoleTests.pdb
